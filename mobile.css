@@ -1,0 +1,6660 @@
+/* Red */
+/* Dark Grey */
+/* Medium Grey */
+/* Violet */
+/* Green */
+/* Fuschia */
+/* Blue */
+/* Darker Red */
+/* Light Grey */
+/* Light Blue-Grey */
+/* Off White */
+/* Off White (Cool) */
+/* Dark Grey */
+@font-face {
+    font-family: 'Scotia-Headline';
+    src: url('/Common/Fonts/Scotia_W_Headline.woff') format('woff'), url('/Common/Fonts/Scotia_W_Headline.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Scotia';
+    src: url('/Common/Fonts/Scotia_W_Rg.woff') format('woff'), url('/Common/Fonts/Scotia_W_Rg.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Scotia';
+    src: url('/Common/Fonts/Scotia_W_Lt.woff') format('woff'), url('/Common/Fonts/Scotia_W_Lt.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Scotia';
+    src: url('/Common/Fonts/Scotia_W_Bd.woff') format('woff'), url('/Common/Fonts/Scotia_W_Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Frutiger';
+    src: url('/Common/Fonts/Frutiger-Roman.eot');
+    src: url('/Common/Fonts/Frutiger-Roman.eot?#iefix') format('embedded-opentype'), url('/Common/Fonts/Frutiger-Roman.woff') format('woff'), url('/Common/Fonts/Frutiger-Roman.ttf') format('truetype'), url('/Common/Fonts/Frutiger-Roman.svg#open_sansbold') format('svg');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Frutiger';
+    src: url('/Common/Fonts/Frutiger-Light.eot');
+    src: url('/Common/Fonts/Frutiger-Light.eot?#iefix') format('embedded-opentype'), url('/Common/Fonts/Frutiger-Light.woff') format('woff'), url('/Common/Fonts/Frutiger-Light.ttf') format('truetype'), url('/Common/Fonts/Frutiger-Bold.svg#Frutiger-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Frutiger';
+    src: url('/Common/Fonts/Frutiger-Bold.eot');
+    src: url('/Common/Fonts/Frutiger-Bold.eot?#iefix') format('embedded-opentype'), url('/Common/Fonts/Frutiger-Bold.woff') format('woff'), url('/Common/Fonts/Frutiger-Bold.ttf') format('truetype'), url('/Common/Fonts/Frutiger-Bold.svg#Frutiger-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+  }
+  html {
+    font-size: 16px;
+    background: none;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  body {
+    padding-top: 60px;
+    color: #333333;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: Scotia, Frutiger, Arial, Helvetica, sans-serif;
+  }
+  body > * div {
+    background: none;
+  }
+  a {
+    color: #8230DF;
+    text-decoration: none;
+  }
+  a[href^="tel:"] {
+    cursor: default;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  a:hover,
+  a:focus {
+    text-decoration: underline;
+  }
+  hr {
+    background-color: #E2E8EE;
+  }
+  button,
+  input,
+  select,
+  textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: normal;
+  }
+  input,
+  select,
+  textarea {
+    padding: 0;
+    font-size: 20px;
+    line-height: 2em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #757575;
+  }
+  input:focus,
+  select:focus,
+  textarea:focus {
+    border-bottom: 2px solid #8230DF;
+  }
+  select {
+    height: 2em;
+    background: url('//scotiabankfiles.azureedge.net/scotia-bank-mexico/2019-global-rebrand/icon_chevron-purple-down.svg') no-repeat right center;
+    -webkit-appearance: none;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    font-weight: 700;
+    color: #333333;
+  }
+  h1 {
+    margin-top: 30px;
+    font-family: Scotia-Headline;
+    font-size: 46px;
+    line-height: 1.1;
+  }
+  h2 {
+    font-family: Scotia-Headline;
+    font-size: 36px;
+    margin: 0;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: normal;
+  }
+  h4 {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  h5 {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  h6 {
+    font-size: 12px;
+    margin: 0;
+  }
+  img {
+    border: none;
+  }
+  small {
+    font-size: 0.85em;
+  }
+  /* Generic Styles
+  **************************/
+  .btn {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    background: none;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .btn:hover,
+  .btn:focus {
+    text-decoration: none !important;
+  }
+  .btn-primary,
+  .btn-default {
+    padding: 15px 30px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: #ED0722;
+  }
+  .btn-primary:hover,
+  .btn-primary:focus {
+    background-color: #CB061D;
+  }
+  .btn-default {
+    color: #ED0722;
+    border-color: #ED0722;
+  }
+  .btn-default:hover,
+  .btn-default:focus {
+    color: #fff;
+    background-color: #CB061D;
+    border-color: #fff;
+  }
+  .btn-pill {
+    padding: 14px 30px;
+    border: 1px solid currentColor;
+    border-radius: 50px;
+  }
+  .btn-pill:hover,
+  .btn-pill:focus {
+    padding: 14px 30px;
+    color: #fff;
+    border: 1px solid currentColor;
+    border-radius: 50px;
+  }
+  .btn-card-default {
+    color: #8230DF;
+  }
+  .btn-card-default:hover,
+  .btn-card-default:focus {
+    background-color: #8230DF;
+  }
+  .btn-card-new {
+    color: #BE207A;
+  }
+  .btn-card-new:hover,
+  .btn-card-new:focus {
+    background-color: #BE207A;
+  }
+  .btn-card-help {
+    color: #CB061D;
+  }
+  .btn-card-help:hover,
+  .btn-card-help:focus {
+    background-color: #CB061D;
+  }
+  .btn-card-success {
+    color: #008660;
+  }
+  .btn-card-success:hover,
+  .btn-card-success:focus {
+    background-color: #008660;
+  }
+  .btn-card-moreinfo {
+    color: #087BB4;
+  }
+  .btn-card-moreinfo:hover,
+  .btn-card-moreinfo:focus {
+    background-color: #087BB4;
+  }
+  .btn-card-unselected {
+    color: #757575;
+  }
+  .btn-card-unselected:hover,
+  .btn-card-unselected:focus {
+    background-color: #757575;
+  }
+  .btn-background {
+    color: #333333;
+    background: #fff;
+    border-color: transparent;
+  }
+  .btn-background:hover,
+  btn-background:focus {
+    color: #fff;
+    background: transparent;
+    border-color: currentColor;
+  }
+  .btn-close:after {
+    content: "x";
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #000;
+    border-radius: 20px;
+    border: 3px solid #D6D6D6;
+    padding: 1px 6px;
+    float: right;
+  }
+  ul.checked li {
+    list-style-type: none;
+  }
+  ul.checked li:before {
+    content: "\2713";
+    color: #d81e05;
+    font-weight: bold;
+    padding-right: 8px;
+  }
+  /* General */
+  .visible-mobile {
+    display: block;
+  }
+  .visible-desktop {
+    display: none !important;
+  }
+  .col {
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  /* Lity - Modal Dialogue */
+  .lity {
+    z-index: 999999;
+  }
+  .lity-inline {
+    background: rgba(153, 153, 153, 0.92);
+  }
+  .lity-inline .lity-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.26);
+    transform: scale(1);
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  .lity-inline.lity-loading .lity-container {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  .lity-inline.lity-closed .lity-container {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  .lity-inline .lity-content {
+    transform: none;
+    transition: none;
+  }
+  .lity-inline .lity-content:after {
+    content: none;
+  }
+  .lity-loading .lity-inline .lity-content,
+  .lity-closed .lity-inline .lity-content {
+    transform: none;
+  }
+  .lity-inline .lity-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 44px;
+    height: 44px;
+    color: transparent;
+    font-size: 0;
+    text-shadow: none;
+  }
+  .lity-inline .lity-close:before,
+  .lity-inline .lity-close:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    height: 2px;
+    width: 26px;
+    background: #757575;
+  }
+  .lity-inline .lity-close:before {
+    transform: translateX(-50%) rotate(-45deg);
+  }
+  .lity-inline .lity-close:after {
+    transform: translateX(-50%) rotate(45deg);
+  }
+  .lity .dialog--header {
+    display: block;
+    align-items: center;
+    flex-flow: column nowrap;
+    margin: 0;
+    padding: 1.5rem 3.5rem 1.5rem 40px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+  }
+  .lity .dialog--body {
+    width: 100%;
+    padding: 0 40px 20px 40px;
+    line-height: 18px;
+    overflow-y: auto;
+    transition: all 0.3s ease 0.15s;
+    -webkit-overflow-scrolling: touch;
+  }
+  /* Lity - Video embed based on Canada site */
+  .yv--link {
+    position: relative;
+    display: inline-block;
+    background: #333333;
+  }
+  .yv--thumbnail {
+    display: block;
+    transition: opacity 0.3s ease;
+  }
+  .yv--link:hover .yv--thumbnail,
+  .yv--link:focus .yv--thumbnail {
+    opacity: 0.7;
+  }
+  .yv--play {
+    position: absolute;
+    display: block;
+    right: 30px;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    background: url('//scotiabankfiles.azureedge.net/scotia-bank-mexico/2019-global-rebrand/icon_play.svg') no-repeat 0 0;
+    background-size: contain;
+    transition: all 0.3s ease;
+  }
+  .yv--link:hover .yv--play,
+  .yv--link:focus .yv--play {
+    right: 60px;
+    bottom: 60px;
+    transform: scale(1.3);
+  }
+  /* Template layout
+  *********************************/
+  #siteHeader {
+    position: fixed;
+    top: 0;
+    bottom: calc(100vh - 60px);
+    left: 0;
+    right: 0;
+    background: rgba(250, 251, 253, 0);
+    overflow: visible;
+    z-index: 9999999;
+    transition: bottom 0s 0.6s, background 0.3s ease 0.3s;
+    --header-height: 60px;
+    --search-height: 128px;
+    --menu-bottom-space: 80px;
+    --footer-height: 85px;
+  }
+  #siteHeader.open {
+    background: #fafbfd;
+    bottom: 0;
+    transition: bottom 0s, background 0.3s;
+  }
+  #top {
+    background: none;
+  }
+  #logoHeader {
+    background: #fff;
+  }
+  #logoHeader > .col {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    padding: 0 60px 0 27px;
+    border-top: 2px solid #ED0722;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+  }
+  #siteLogo {
+    display: block;
+    height: 100%;
+    width: 25px;
+    height: 25px;
+  }
+  #siteLogo img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  #siteNav {
+    background: none;
+    border: none;
+    overflow: hidden;
+  }
+  #showMegaMenu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    margin: 10px 27px 10px 0;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  #showMegaMenu span {
+    position: absolute;
+    display: block;
+    height: 1px;
+    left: 7px;
+    right: 8px;
+    background: #333333;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: all 0.3s ease;
+  }
+  #showMegaMenu span:nth-of-type(1) {
+    top: 27px;
+  }
+  #showMegaMenu span:nth-of-type(2),
+  #showMegaMenu span:nth-of-type(3) {
+    top: 20px;
+  }
+  #showMegaMenu span:nth-of-type(4) {
+    top: 13px;
+  }
+  #showMegaMenu.active span:nth-of-type(1) {
+    top: 20px;
+    width: 0;
+    left: 50%;
+  }
+  #showMegaMenu.active span:nth-of-type(2) {
+    transform: rotate(-45deg);
+  }
+  #showMegaMenu.active span:nth-of-type(3) {
+    transform: rotate(45deg);
+  }
+  #showMegaMenu.active span:nth-of-type(4) {
+    top: 20px;
+    width: 0;
+    left: 50%;
+  }
+  #megaMenuHeader {
+    height: 0;
+    background: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: height 0s 0.3s, opacity 0.3s ease, visibility 0s 0.3s;
+  }
+  .open #megaMenuHeader {
+    height: calc(100vh - 60px);
+    opacity: 1;
+    visibility: visible;
+    transition: height 0s, opacity 0.3s ease 0.3s, visibility 0s;
+  }
+  #megaMenuHeader #mega-menu {
+    padding: 0;
+    border: none;
+  }
+  .searchForm {
+    position: relative;
+    bottom: inherit;
+    right: inherit;
+    height: 48px;
+    margin: 10px 0;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 2px 10px #E2E8EE;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  .open .searchForm {
+    transform: scale(1);
+    transition: transform 0.3s ease 0.2s;
+  }
+  .txtSearchQuery {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 40px;
+    padding: 0 48px 0 15px;
+    color: #757575;
+    font-size: inherit;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #E2E8EE;
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    z-index: 10;
+    transition: all 0.3s ease 0.05s;
+  }
+  .imgSearchSubmit {
+    position: absolute;
+    display: block;
+    top: 30px;
+    right: 30px;
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    background: none;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    z-index: 20;
+  }
+  .imgSearchSubmit:focus {
+    outline: inherit;
+    border: none;
+  }
+  .megaMenuWrapper {
+    max-height: calc(100vh - (60px + 128px + 85px));
+    width: 100%;
+    padding: 0 0 80px 0;
+    box-sizing: border-box;
+    overflow: auto;
+    overflow-x: hidden;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  .megaMenuWrapper.active {
+    overflow: visible;
+  }
+  .open .megaMenuWrapper {
+    transform: scale(1);
+    transition: transform 0.3s ease 0.3s, left 0.3s ease;
+  }
+  .megaMenu {
+    position: relative;
+    display: block;
+    clear: both;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background: #fff;
+    border: none;
+    box-shadow: 0 2px 10px #E2E8EE;
+    transition: all 0.3s ease;
+  }
+  .megaMenu.active {
+    left: -100%;
+  }
+  .megaMenu a {
+    color: #8230DF;
+    font-size: inherit;
+    font-weight: 400;
+    margin: 0 1.5rem;
+    border: none;
+  }
+  .megaMenu strong {
+    position: relative;
+    display: block;
+    margin: 0 1.5rem;
+    padding: 20px 15px;
+    font-family: inherit !important;
+    font-weight: 400 !important;
+    line-height: 1;
+  }
+  .megaMenu li {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+  }
+  .megaMenu li.parent.open {
+    overflow: visible;
+  }
+  .megaMenu li:first-child {
+    background: none;
+  }
+  .megaMenu li:not(:first-of-type) strong {
+    border-top: 1px solid #E2E8EE;
+  }
+  .megaMenu li a {
+    display: block;
+    padding: 20px 15px;
+    line-height: 1em;
+    border-top: 1px solid #E2E8EE;
+  }
+  .megaMenu.open > li > a {
+    border-bottom: none;
+  }
+  .megaMenu li:first-child > a {
+    border: none;
+  }
+  .megaMenu.open > li:first-child > a {
+    border: none;
+  }
+  .megaMenu li.parent > span,
+  .megaMenu li.open.parent > span {
+    position: absolute;
+    top: 6px;
+    width: 44px;
+    height: 44px;
+    right: 1.5rem;
+    background: url('//scotiabankfiles.azureedge.net/scotia-bank-mexico/2019-global-rebrand/arrow-right.svg') no-repeat center center;
+  }
+  .megaMenu li > section {
+    position: fixed;
+    top: 0;
+    height: 0;
+    width: 100%;
+    max-height: calc(100vh - (60px + 128px + 85px));
+    left: 100%;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+    visibility: hidden;
+    z-index: 1;
+    transition: all 0.3s ease;
+  }
+  .megaMenu li.open > section {
+    left: 0;
+    height: auto;
+    overflow: auto;
+    overflow-x: hidden;
+    visibility: visible;
+  }
+  .megaMenu li.open > section.active {
+    left: -100%;
+    overflow: visible;
+  }
+  .megaMenu li.open > section.active li.open > section {
+    left: 100%;
+  }
+  .megaMenu li.open > section > ul > li > a {
+    padding: 20px 15px;
+    line-height: inherit;
+  }
+  .megaMenu ul {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background: #fff;
+    box-shadow: 0 10px 10px -8px #E2E8EE;
+  }
+  .megaMenu ul li a,
+  .megaMenu ul ul li a {
+    padding: 20px 15px;
+    border-top-color: #E2E8EE;
+  }
+  .megaMenu ul ul {
+    background: #fff;
+  }
+  .megaMenu > li > section[data-children="2"] > ul ul,
+  .megaMenu > li > section[data-children="3"] > ul ul {
+    columns: 220px;
+    column-gap: 20px;
+    -webkit-columns: 220px;
+    -moz-columns: 220px;
+    -ms-columns: 220px;
+    -o-columns: 220px;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    -ms-column-gap: 20px;
+    -o-column-gap: 20px;
+  }
+  .megaMenu .viewall {
+    position: relative;
+    border-top: none;
+    border-bottom: 1px solid #E2E8EE;
+    overflow: visible;
+  }
+  .megaMenu .viewall:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 100vw;
+    margin-left: -50vw;
+    background: #fff;
+    z-index: -1;
+  }
+  .megaMenu .back {
+    position: relative;
+    padding-left: 36px;
+    color: #333333;
+    font-weight: 700;
+    background: url('//scotiabankfiles.azureedge.net/scotia-bank-mexico/2019-global-rebrand/arrow-left.svg') #fff no-repeat 15px center;
+    background-size: 7px 12px;
+    border-top: none;
+    border-bottom: 1px solid #E2E8EE;
+    overflow: visible;
+  }
+  .megaMenu .back:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 100vw;
+    margin-left: -50vw;
+    background: #fff;
+    z-index: -1;
+  }
+  .siteTabs {
+    position: relative;
+    left: 0;
+    transition: all 0.3s ease;
+  }
+  .active ~ .siteTabs {
+    left: -100%;
+  }
+  .siteTabsSelect {
+    margin: 10px 0;
+    padding: 15px 30px;
+    background: #fff;
+    box-shadow: 0 2px 10px #E2E8EE;
+  }
+  #siteTabsSelect {
+    height: auto;
+    font-size: inherit;
+    background: none;
+    border: 1px solid #E2E8EE;
+    -webkit-appearance: menulist;
+  }
+  .siteTabsLinks {
+    margin: 10px 0;
+    padding: 15px 30px;
+    list-style: none;
+    background: #fff;
+    box-shadow: 0 2px 10px #E2E8EE;
+  }
+  .headerCta {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 85px;
+    background: #fff;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+  }
+  .open .headerCta {
+    transform: translateY(0);
+    transition: transform 0.3s ease 0.3s;
+  }
+  .headerCta-link {
+    display: block;
+    width: 33%;
+    padding: 20px 15px;
+    color: inherit;
+    font-size: 0.8rem;
+    line-height: 1;
+    text-align: center;
+  }
+  .headerCta-link i {
+    color: inherit;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .headerCta-link img {
+    display: block;
+    margin: auto;
+    max-width: 24px;
+    max-height: 24px;
+  }
+  .headerCta-link span {
+    display: block;
+  }
+  .headerCta-link:hover,
+  .headerCta-link:focus {
+    text-decoration: none !important;
+  }
+  #newSignIn {
+    margin: 0 auto;
+  }
+  .newSignIn-dropDown {
+    position: relative;
+    z-index: 100;
+  }
+  .newSignIn-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    min-width: calc(100vw - 185px);
+    padding: 0 2.5rem;
+    color: #fff;
+    font-size: 0.75rem;
+    background: #ED0722;
+    border: none;
+    border-radius: 0.3rem;
+    box-sizing: border-box;
+    transition: background 0.25s ease-in, border-radius 0.5s 0s;
+    z-index: 1;
+  }
+  .newSignIn-link:after {
+    content: "";
+    position: absolute;
+    width: 0.8rem;
+    height: 1rem;
+    top: 50%;
+    right: 1rem;
+    margin-top: -0.5rem;
+    background: url('//cdn.agilitycms.com/scotiabank-costa-rica/2019-global-rebrand/icon_chevron-white-down.svg') no-repeat center center;
+    background-size: contain;
+    transform: rotate(0deg);
+    transition: 0.25s;
+  }
+  .icon-Icon_SignInLock {
+    position: absolute;
+    width: 1.2rem;
+    height: 1.5rem;
+    top: 50%;
+    left: 1rem;
+    margin-top: -0.75rem;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.5em;
+  }
+  .newSignIn-dropDownList {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: auto;
+    max-height: 0;
+    margin: 0;
+    padding: 0.25em 0 0.1em 0;
+    color: #fff;
+    list-style: none;
+    background-color: #ED0722;
+    border-radius: 0 0 0.3rem 0.3rem;
+    transition: max-height 0.25s, visibility 0.25s 0s;
+    overflow: auto;
+    visibility: hidden;
+  }
+  .newSignIn-dropDownList:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 1em;
+    right: 1em;
+    height: 2px;
+    background: #fff;
+  }
+  .newSignIn-dropDownListItem {
+    display: block;
+  }
+  .newSignIn-dropDownListLink {
+    display: block;
+    padding: 0.5em 1em;
+    color: #fff;
+    font-size: 0.875rem;
+  }
+  .newSignIn--open .newSignIn-link {
+    border-radius: 0.3em 0.3em 0 0;
+    transition: background 0.3s ease-in;
+  }
+  .newSignIn--open .newSignIn-link:after {
+    transform: rotate(-180deg);
+  }
+  .newSignIn--open .newSignIn-dropDownList {
+    max-height: calc(100vh - 100px);
+    transition: max-height 0.25s;
+    visibility: visible;
+  }
+  .newSignIn-activate {
+    display: none;
+  }
+  main {
+    background-image: none;
+    padding: 0;
+  }
+  #pageName {
+    margin: 30px 0 0 0;
+    padding: 0;
+    color: #333333;
+    font-family: Scotia-Headline;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 1.1;
+    background: none;
+  }
+  #footer {
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .backToTop {
+    position: fixed;
+    display: block;
+    bottom: -50px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    background: url('//scotiabankfiles.azureedge.net/scotia-bank-mexico/2019-global-rebrand/arrow-backToTop.svg') #8230df no-repeat center center;
+    background-size: 20px auto;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    cursor: pointer;
+    z-index: 99999;
+    transition: all 0.5s ease;
+  }
+  .backToTop.active {
+    bottom: 15px;
+    opacity: 1;
+  }
+  #topFooter {
+    padding: 45px 0 75px 0;
+    border-top: 1px solid #E2E8EE;
+  }
+  .topFooter__columns {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .topFooter__column:not(.topFooter__social):nth-of-type(1n + 2) {
+    margin-top: 30px;
+  }
+  .topFooter__column-icon {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .topFooter__column-heading {
+    display: block;
+    margin: 0.75rem 0 0.6rem 0;
+    font-size: 0.975rem;
+    line-height: 1.1;
+  }
+  .topFooter__column-text {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .topFooter__column-link {
+    display: block;
+    color: inherit;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  .topFooter__social {
+    margin: 10px 0 1rem 0;
+  }
+  .topFooter__social a {
+    padding: 0;
+    color: inherit;
+    font-size: 1.5rem;
+  }
+  .topFooter__social a:nth-child(1n + 2) {
+    margin-left: 1rem;
+  }
+  #bottomFooter {
+    padding: 20px 0;
+    border-top: 1px solid #E2E8EE;
+  }
+  .footerLinks {
+    margin-bottom: 1rem;
+    padding: 10px 0;
+    font-size: 13px;
+    text-align: center;
+    list-style-type: none;
+  }
+  .footerLinks li {
+    display: inline-block;
+    margin: 0 0.75rem 0.75rem 0.75rem;
+    padding: 0;
+    border: none;
+  }
+  .footerLinks a {
+    color: inherit;
+  }
+  #legalFooter {
+    background-color: #F6F7FC;
+    padding: 15px;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  /* Templates & Pages
+  ************************/
+  /* Homepage */
+  #rotatorMain {
+    border-bottom: 1px solid #E2E8EE;
+  }
+  #ribbonMain {
+    background-color: #F6F7FC;
+    border-top: 1px solid #E2E8EE;
+    border-bottom: 1px solid #E2E8EE;
+  }
+  /* Modules
+  *************************/
+  /* Accordion */
+  .accordion {
+    background-color: #FFF;
+    padding: 1em;
+    margin: 0;
+    margin-right: -15px;
+    list-style: none;
+  }
+  .accordion .content {
+    background-color: #fff;
+    padding: 0px;
+    margin: 15px 0;
+    padding-right: 15px;
+    cursor: pointer;
+  }
+  .accordion article {
+    display: none;
+    padding: 10px 10px 5px 10px;
+  }
+  .accordion header {
+    padding: 0.5em;
+    font-weight: normal;
+    font-size: 1.5rem;
+    background: none;
+    position: relative;
+    border-bottom: 1px solid #D6D6D6;
+  }
+  .accordion header:after {
+    content: "";
+    display: block;
+    height: 1em;
+    width: 2em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url('//scotiabankfiles.azureedge.net/scotia-bank-mexico/2019-global-rebrand/icon_chevron-down-grey-24px.svg') no-repeat right 0.1em center;
+    background-size: 1em auto;
+    min-height: 1.1em;
+    transition: all 0.25s ease-in-out;
+    pointer-events: none;
+    transform: translate(-0.1em, 0.6em);
+  }
+  .accordion p {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0;
+  }
+  .accordion h3 {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+  }
+  .accordion header.selected {
+    background-position: right -148px;
+    border-bottom: 2px solid #ED0722;
+    font-weight: bold;
+    color: #ED0722;
+  }
+  .accordion header.selected:after {
+    content: "";
+    display: block;
+    height: 1em;
+    width: 2.2em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url('//scotiabankfiles.azureedge.net/scotia-bank-mexico/2019-global-rebrand/icon_chevron-down-red-24px.svg') no-repeat right 0.8em center;
+    background-size: 1em auto;
+    min-height: 1em;
+    transition: all 0.25s ease-in-out;
+    pointer-events: none;
+    transform: rotate(-180deg) translate(-0.3em, -0.6em);
+  }
+  .accordion .content ul {
+    margin-top: 20px;
+    padding: 0px;
+    list-style-type: none;
+  }
+  .accordion .content ul li {
+    margin-top: 0;
+    padding-left: 0;
+    margin-left: 1em;
+    background: none;
+    list-style: disc;
+  }
+  .accordion .content ol {
+    padding-left: 0;
+    list-style-position: inside;
+  }
+  .accordion .content ol li {
+    background-image: none;
+    padding-left: 0;
+  }
+  .Tabbed {
+    padding-top: 0;
+    margin: 0.75em;
+    border: 1px solid #eee;
+  }
+  .Tabbed ul,
+  .Tabbed ol,
+  .Tabbed li {
+    margin: 0;
+    padding: 0;
+    list-style: initial;
+  }
+  .Tabbed ul.Tabs,
+  .Tabbed ul.TabsContent {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-bottom: 1px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Tabbed ul.TabsContent {
+    border-top: 1px solid #D6D6D6;
+    list-style: none;
+  }
+  .Tabbed li.Selected {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    width: auto;
+  }
+  .Tabbed ul.Tabs {
+    border-bottom: none;
+    margin-bottom: -2px;
+  }
+  .Tabbed .Tabs li {
+    background-color: #FFF;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    border: none;
+    border-bottom-color: #e4e4e4;
+    margin: 1px;
+    position: relative;
+  }
+  .Tabbed .Tabs a {
+    padding: 1em;
+    color: #747474;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    line-height: 1.5em;
+    height: auto;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .Tabbed .Tabs a:hover {
+    text-decoration: none;
+  }
+  .Tabbed .Tabs li.Selected {
+    background-color: transparent;
+    border: none;
+    border-bottom-color: transparent;
+    margin: 0;
+  }
+  .Tabbed .Tabs li.Selected a {
+    color: #ED0722;
+    font-weight: bold;
+    border-bottom: 2px solid #ED0722;
+    margin-bottom: 1px;
+    background: transparent;
+  }
+  .Tabbed .TabsContent li {
+    background-color: #FFF;
+    display: none;
+    border: none;
+    padding: 0;
+    font-size: 1rem;
+  }
+  .Tabbed .TabsContent li.content {
+    background-color: transparent;
+    display: none;
+    border: none;
+    padding: 1em;
+  }
+  .Tabbed .TabsContent > li {
+    background-color: #FFF;
+    display: none;
+    border: none;
+    padding: 1em;
+    font-size: 1rem;
+  }
+  .Tabbed .TabsContent > li.content {
+    background-color: transparent;
+    display: none;
+    border: none;
+    padding: 1em;
+  }
+  .Tabbed .TabsContent li.content li {
+    display: block;
+    list-style: inherit;
+    display: list-item;
+  }
+  .Tabbed .TabsContent li.Selected {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+  }
+  .Tabbed .TabsContent li.content ul {
+    list-style: initial;
+    list-style-type: disc;
+    margin-left: 15px;
+    padding-left: 15px;
+  }
+  .Tabbed .TabsContent li.content ol {
+    list-style: initial;
+    list-style-type: decimal;
+    margin-left: 15px;
+    padding-left: 15px;
+  }
+  /* Calendar */
+  .cal {
+    margin: 1em 0;
+    position: relative;
+    border: 1px solid #E2E8EE;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  }
+  .cal header {
+    overflow: hidden;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    padding: 1em;
+    color: #fff;
+  }
+  .cal header h2 {
+    margin: 0px;
+    font-weight: normal;
+    font-family: Scotia, Frutiger, Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+  }
+  .cal header a {
+    color: #FFF;
+    background: url('//scotiabankfiles.azureedge.net/scotia-bank-mexico/2019-global-rebrand/arrow-left.svg') no-repeat right 0 center;
+    background-size: 0.8em auto;
+    text-indent: 0;
+    overflow: hidden;
+    display: block;
+    width: 2em;
+    height: 2em;
+    top: 0;
+    text-decoration: none;
+    color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+  }
+  .cal .next {
+    position: absolute;
+    right: 0;
+    transform: rotate(180deg) translate(1em, -1em);
+    background-position: center center;
+  }
+  .cal .prev {
+    position: absolute;
+    left: 0;
+    background-position: center center;
+    transform: translate(1em, 1em);
+  }
+  .cal .next:hover {
+    background-position: center center;
+    border: 1px solid #8230DF;
+    border-radius: 5px;
+  }
+  .cal .prev:hover {
+    background-position: center center;
+    border: 1px solid #8230DF;
+    border-radius: 5px;
+  }
+  .cal table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 5px;
+  }
+  .cal table .week {
+    background-color: #FFF;
+    border-bottom: 1px solid #E2E8EE;
+  }
+  .cal table .week th {
+    color: #fff;
+    font-weight: normal;
+    font-size: inherit;
+    text-transform: capitalize;
+    color: #333333;
+  }
+  .cal table tr {
+    text-align: center;
+  }
+  .cal table tr td {
+    border: none;
+    color: #333333;
+    padding: 0.5em;
+    font-weight: bold;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center 25px;
+    font-size: inherit;
+  }
+  .cal table tr td.loaded {
+    background-image: url(/Images/Mobile/dots.png);
+  }
+  .cal table tr td.selected {
+    color: #fff;
+    background-color: #28363d;
+    background-position: center -13px;
+  }
+  .cal table .days {
+    background-color: transparent;
+  }
+  .cal table tr td.otherMonth {
+    color: #a9b0b6;
+    background-position: center -68px;
+  }
+  /* Contact Us */
+  #contactForm {
+    padding-bottom: 4rem;
+  }
+  #contactForm div > span,
+  #contactForm .checkbox {
+    font-size: 0.8em;
+  }
+  #contactForm fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  #contactForm label {
+    display: block;
+    margin: 0 0 2em 0;
+    padding: 0;
+    text-align: left;
+    width: auto;
+    float: none;
+  }
+  #contactForm input[type="text"],
+  #contactForm input[type="email"],
+  #contactForm input[type="tel"],
+  #contactForm select {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    line-height: 32px;
+    background: #fff;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #707070;
+    box-sizing: border-box;
+    behavior: url(/Scripts/PIE.htc; transition: .1s ease-in-out);
+  }
+  #contactForm input[type="text"]:focus,
+  #contactForm input[type="email"]:focus,
+  #contactForm input[type="tel"]:focus,
+  #contactForm select:focus {
+    border-bottom: 2px solid #8230DF;
+  }
+  #contactForm select {
+    padding-right: 0;
+  }
+  #contactForm label + div {
+    margin: 10px 0 0 0;
+    text-align: center;
+    margin-bottom: -40px;
+  }
+  #contactForm .btn {
+    float: none;
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    color: #fff;
+  }
+  #contactForm input[type="checkbox"] {
+    vertical-align: middle;
+  }
+  #contactForm .comments textarea {
+    display: block;
+    width: 100%;
+    height: 8em;
+  }
+  #contactForm a:not(.button) {
+    text-decoration: none;
+  }
+  #contactForm .group {
+    margin: 0;
+    border: none;
+  }
+  #contactForm .group label {
+    padding: 0;
+  }
+  #contactForm .thankYouMessage {
+    margin-top: 17px;
+  }
+  #contactForm .thankYouMessage p {
+    margin: 0;
+  }
+  #contactForm label .validation {
+    position: static;
+    font-size: inherit;
+    padding-left: 0;
+    padding-top: 0;
+    color: #ED0722;
+    margin: 0;
+    width: 100%;
+    background: none;
+    position: relative;
+  }
+  #contactForm label .validation:after {
+    content: "";
+    display: block;
+    height: 1.35em;
+    width: 1.35em;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url('//scotiabankfiles.azureedge.net/scotia-bank-mexico/2019-global-rebrand/icon_formAlert-error-lightred.svg') no-repeat center center;
+    background-size: 100%;
+    min-height: 1em;
+  }
+  #contactForm label input.input-validation-error {
+    border-bottom: 2px solid #ED0722;
+  }
+  #contactForm label .validation.field-validation-valid {
+    font-size: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2em;
+    transform: translateY(1.7em);
+  }
+  #contactForm label .validation.field-validation-valid:after {
+    content: "";
+    display: block;
+    height: 1.35em;
+    width: 1.35em;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url('//scotiabankfiles.azureedge.net/scotia-bank-mexico/2019-global-rebrand/icon_formAlert-success-green.svg') no-repeat center center;
+    background-size: 100%;
+    min-height: 1em;
+  }
+  /* Ribbons */
+  .ribbon {
+    padding: 0;
+    background-color: white;
+  }
+  .ribbons {
+    width: 100%;
+    position: relative;
+  }
+  .ribbons > ul {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .ribbons > ul.ribbons__tabs {
+    width: 100%;
+    box-shadow: 0 2px 10px 0 rgba(0, 40, 80, 0.07);
+    box-sizing: border-box;
+    overflow: auto;
+  }
+  .ribbons > ul > li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .ribbons > ul.ribbons__content > li {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .ribbons > ul > li > header {
+    margin: 0 1rem;
+    cursor: pointer;
+    z-index: 100;
+  }
+  .ribbons > ul > li > header > span {
+    position: relative;
+    display: block;
+    padding: 1rem 0;
+    color: transparent;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    line-height: 1em;
+    white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    z-index: 10;
+  }
+  .ribbons > ul > li.selected > header > span {
+    border-color: #ED0722;
+  }
+  .ribbons > ul > li > header > span:after {
+    content: attr(data-text);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: inherit;
+    color: #333333;
+    white-space: nowrap;
+    box-sizing: border-box;
+    transition: all 0.3s;
+  }
+  .ribbons > ul > li:hover > header > span:after,
+  .ribbons > ul > li:focus > header > span:after {
+    font-weight: 700;
+  }
+  .ribbons > ul > li.selected > header > span:after {
+    font-weight: 700;
+  }
+  .ribbons > ul > li > section {
+    display: block;
+    width: 100%;
+    margin-top: 60px;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  .contentColumn {
+    margin: 0 0 2rem 0;
+  }
+  /* Rotator */
+  .rotator {
+    position: relative;
+    margin: 0;
+    height: 100%;
+    background: #fff;
+    z-index: 1;
+  }
+  .rotator > ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    white-space: normal;
+    overflow: hidden;
+  }
+  .rotator > ul.pauseEffects {
+    transition: none;
+  }
+  .rotator > ul > li {
+    flex: 0 0 auto;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    white-space: normal;
+    vertical-align: top;
+    background-color: transparent;
+    box-sizing: border-box;
+    transition: margin-left ease-out 0.5s;
+  }
+  .rotator > ul li a {
+    display: inline;
+    width: auto;
+  }
+  .rotator .slide > div {
+    padding: 70px 45px 70px 45px;
+    color: #fff;
+    text-align: center;
+  }
+  .rotator h2 {
+    color: inherit;
+    font-size: 46px;
+    line-height: 1em;
+    letter-spacing: -0.03em;
+  }
+  .rotator h3 {
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  .rotator p,
+  .rotator h3 {
+    margin: 15px 0;
+  }
+  .rotator .btn {
+    display: inline-flex;
+    margin-top: 20px;
+    padding: 1rem 3rem;
+  }
+  .rotator > nav {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+    height: 32px;
+    padding: 0;
+    text-align: center;
+    background: none;
+    border: none;
+  }
+  .rotator > nav ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .rotator > nav li {
+    display: inline-block;
+    margin: 0 3px;
+    padding: 0;
+    list-style: none;
+  }
+  .rotator > nav a {
+    text-indent: -9000px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0px;
+    line-height: 0px;
+    background-color: #898989;
+    border-radius: 0;
+  }
+  .rotator > nav li.selected a {
+    background-color: #ED0722;
+  }
+  .rotator .next,
+  .rotator .prev {
+    display: none;
+  }
+  .rotator .pause,
+  .rotator .resume {
+    display: none;
+  }
+  .rotator > ul > li > * {
+    white-space: normal;
+    max-height: 100%;
+  }
+  /* Contact Blurb / Split Collapsible */
+  .contactBlurb {
+    clear: both;
+    background-color: transparent;
+    padding: 0;
+    font-size: inherit;
+    margin: 0;
+    margin: 0.75em 0.8em;
+  }
+  .contactBlurb .wrapper {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 0;
+  }
+  .contactBlurb.active .wrapper {
+    display: block;
+  }
+  .contactBlurb > h2 {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    font-size: 1.5rem;
+    font-family: Scotia, Frutiger, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    position: relative;
+    border-bottom: 1px solid #D6D6D6;
+  }
+  .contactBlurb h2:after {
+    content: "";
+    display: block;
+    height: 1em;
+    width: 2em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url('//scotiabankfiles.azureedge.net/scotia-bank-mexico/2019-global-rebrand/icon_chevron-down-grey-24px.svg') no-repeat right 0.1em center;
+    background-size: 1em auto;
+    min-height: 1.1em;
+    transition: all 0.25s ease-in-out;
+    pointer-events: none;
+    transform: translate(-0.1em, 0.3em);
+  }
+  .contactBlurb > h2 a {
+    color: #747474;
+    display: block;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding: 0 1em 0.5em 0.5em;
+  }
+  .contactBlurb > h2 a:hover,
+  .contactBlurb > h2 a:focus {
+    color: #333333;
+    text-decoration: none;
+  }
+  .contactBlurb p {
+    margin: auto;
+  }
+  .contactBlurb .right {
+    float: none;
+  }
+  .contactVerticalItems ul {
+    padding: 0;
+    margin: 0;
+  }
+  .contactVerticalItems li {
+    padding: 0;
+    margin-top: 0;
+    border-top: none;
+    position: relative;
+  }
+  .contactVerticalItems li:first-child {
+    border-top: 1px solid #fff;
+  }
+  .contactVerticalItems nav {
+    margin-top: 15px;
+  }
+  .contactBlurb a.button {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    color: #fff;
+    font-weight: 700;
+  }
+  .contactBlurb .button span {
+    display: inline-block;
+    padding: 7px 10px 7px 0px;
+    background-position: right top;
+  }
+  .contactBlurb .descriptionText {
+    padding: 0;
+    margin: 1em;
+  }
+  .contactBlurb .descriptionText p {
+    margin-bottom: 0;
+  }
+  .contactBlurb.active h2:after {
+    content: "";
+    display: block;
+    height: 1em;
+    width: 2.2em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url('//scotiabankfiles.azureedge.net/scotia-bank-mexico/2019-global-rebrand/icon_chevron-down-red-24px.svg') no-repeat right 0.8em center;
+    background-size: 1em auto;
+    min-height: 1.1em;
+    transition: all 0.25s ease-in-out;
+    pointer-events: none;
+    transform: rotate(-180deg) translate(-0.2em, -0.2em);
+  }
+  .contactBlurb.active h2 {
+    border-bottom: 2px solid #ED0722;
+    position: relative;
+  }
+  .contactBlurb.active h2 a {
+    color: #ED0722;
+    font-weight: bold;
+  }
+  /* Tile */
+  .tile {
+    position: relative;
+    width: 100%;
+    min-height: 430px;
+    margin: 30px 0;
+    background-color: white;
+    border: 1px solid #d6d6d6;
+    box-sizing: border-box;
+  }
+  .tile h4 {
+    margin: 0 0 20px 0;
+    font-size: 1.25rem;
+  }
+  .tile h5 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: normal;
+  }
+  .tile a {
+    font-size: 1rem;
+  }
+  /* Tile Generic */
+  .tile.generic {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 10px 0 #E2E8EE;
+    border-radius: 4px;
+    box-sizing: content-box;
+  }
+  .tile.generic:hover {
+    transition: ease 0.25s;
+    box-shadow: 0 2px 50px 0 #E2E8EE;
+  }
+  .tile.generic > img,
+  .tile.generic picture > img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-right: 0;
+    padding-left: 0;
+    overflow: hidden;
+  }
+  .tile.generic picture {
+    display: block;
+    padding-right: 0;
+    padding-left: 0;
+    overflow: hidden;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    max-height: 200px;
+  }
+  .tile.generic .c-body {
+    margin-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .tile.generic h3,
+  .tile.generic h4,
+  .tile.generic h5,
+  .tile.generic h3 a,
+  .tile.generic h4 a,
+  .tile.generic h5 a,
+  .tile.generic strong {
+    font-weight: 700;
+    color: #333333;
+    font-size: 1.25rem;
+    line-height: 1.2rem;
+    height: auto;
+    margin: 25px 0 5px 0;
+  }
+  .tile.generic ul {
+    margin-left: 0;
+    padding-left: 2.5em;
+  }
+  .tile.generic h5 + p {
+    margin-top: 0;
+  }
+  .tile.generic p,
+  .tile ul,
+  .tile a {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+  }
+  .tile.generic p {
+    margin-bottom: 1em;
+  }
+  .tile.generic a:hover,
+  .tile.generic a:focus {
+    text-decoration: none;
+  }
+  .tile.generic .bttn__arrow {
+    position: relative;
+    display: block;
+    min-height: 44px;
+    min-width: 44px;
+    padding: 0;
+    margin: 20px 70% 20px 30px;
+  }
+  .tile.generic .bttn__arrow:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    background: url('//scotiabankfiles.azureedge.net/scotiabank-colombia/Global-Rebrand/arrow-right-red-link.svg') no-repeat left center;
+    background-size: 1.5em auto;
+    min-height: 100%;
+    width: 100%;
+    transition: all 0.25s ease-in-out;
+  }
+  .tile.generic .bttn__arrow:hover:after,
+  .tile .bttn__arrow:focus:after {
+    background-position-x: 0.5em;
+  }
+  .tile.generic .bgImage {
+    flex: 1 1 auto;
+    position: relative;
+    height: 100%;
+    padding: 30px;
+    background: no-repeat center center;
+    background-size: cover;
+    box-sizing: border-box;
+  }
+  .tile.generic .bgImage .btn {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+  }
+  .tile.generic .bgImage .btn + .btn {
+    right: 30px;
+    left: auto;
+  }
+  /* Tile Map / Stock */
+  .tile.map {
+    position: relative;
+  }
+  .tile.map h4 {
+    margin: 30px 0 0 0;
+    padding: 0 30px;
+    font-size: 1.5em;
+  }
+  .tile.map h5 {
+    margin: 0;
+    font-size: 1.25em;
+    font-weight: bold;
+  }
+  .tile.map section {
+    font-size: 1.25em;
+  }
+  .tile.map .btn {
+    margin: 0;
+  }
+  .tile.map .btn + a {
+    position: absolute;
+    bottom: 18px;
+    right: 0;
+    width: 51%;
+    margin-right: -5px;
+    font-size: 1.25em;
+    text-align: right;
+    transform: translateY(50%);
+  }
+  .tile.map .noLocations {
+    display: none;
+    padding: 30px;
+  }
+  .tile.map .firstLocation {
+    padding: 30px;
+  }
+  .tile.map > footer {
+    position: relative;
+    width: auto;
+    margin: 0;
+    padding: 30px;
+    background: none;
+  }
+  .tile.stock section {
+    padding: 30px;
+  }
+  /* Tile Credit */
+  .pc--inner--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+  }
+  .pc--header {
+    margin-top: 20px;
+    border-bottom: 1px solid #D6D6D6;
+    min-height: 200px;
+  }
+  .pc--image {
+    width: auto;
+    height: auto;
+    max-width: 70%;
+    max-height: 160px;
+    margin: 0.5em auto;
+    display: block;
+  }
+  .pc--title,
+  .pc--title a {
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #333333;
+    text-decoration: none;
+    padding-bottom: 1em;
+  }
+  .pc--title a:hover {
+    text-decoration: none;
+  }
+  .pc--title sup {
+    font-size: 0.5em;
+  }
+  .pc--body {
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-grow: 1;
+    text-align: center;
+    background: none;
+    padding-bottom: 1em;
+  }
+  .pc--tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: -15px;
+  }
+  .pc--tag {
+    margin: 0.1em;
+    border: 1px solid #D6D6D6;
+    display: inline-block;
+    background: #fff;
+    padding: 0.5em 1em;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1;
+    color: #757575;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.3em;
+  }
+  .pc--tag.special {
+    color: #fff;
+    border: 1px solid #bc267a;
+    background: #bc267a;
+  }
+  .pc--subtitle {
+    text-align: center;
+  }
+  .pc--footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    margin-top: auto;
+  }
+  .pc--cta {
+    color: #fff;
+    background-color: #ED0722;
+    border-color: #ED0722;
+    display: inline-block;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.75em 0;
+    font-size: 1rem;
+    line-height: 1.25;
+    transition: all 0.3s ease;
+    width: 100%;
+    border-radius: 0.3em;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 1em;
+  }
+  a.pc--cta:hover,
+  a.pc--cta:focus {
+    color: #fff;
+    background-color: #ad0000;
+    border-color: #ad0000;
+    text-decoration: none;
+  }
+  a.pc--cta:focus {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 3px rgba(237, 7, 34, 0.5);
+  }
+  /* Tile - STOCK TILE */
+  .stockTable {
+    border-collapse: collapse;
+    width: calc(100% + 60px);
+    min-width: 18em;
+    margin: 0 -30px 20px -30px;
+  }
+  .stockTable th,
+  .stockTable td {
+    padding: 5px;
+  }
+  .stockTable th {
+    border-bottom: 1px solid #e3e3e3;
+  }
+  .stockTable thead th {
+    padding-top: 0;
+    text-align: left;
+  }
+  .stockTable thead th img {
+    margin: -10px 0 -3px 0;
+  }
+  .stockTable th:first-of-type,
+  .stockTable td:first-of-type {
+    width: 30%;
+    padding-right: 10px;
+    border-right: 1px solid #e3e3e3;
+  }
+  .stockTable td:first-of-type {
+    font-size: 0.934em;
+    font-weight: bold;
+  }
+  .stockTable th:nth-of-type(2),
+  .stockTable td:nth-of-type(2) {
+    padding-left: 10px;
+  }
+  .stockTable.headers-2 th:not(:first-of-type),
+  .stockTable.headers-2 td:not(:first-of-type) {
+    width: 35%;
+  }
+  .stockTable.headers-3 th:not(:first-of-type),
+  .stockTable.headers-3 td:not(:first-of-type) {
+    width: 24%;
+  }
+  .stockTable.headers-3 th:nth-of-type(4),
+  .stockTable.headers-3 td:nth-of-type(4) {
+    padding-right: 0;
+  }
+  .stockTable tr:not(:last-of-type) td {
+    border-bottom: 1px solid #e3e3e3;
+  }
+  .stockTable:not(:last-of-type) tr:last-of-type td {
+    border-bottom: 2px solid #e3e3e3;
+  }
+  .stockTable th:first-of-type,
+  .stockTable td:first-of-type {
+    text-align: right;
+  }
+  .stockFootnote {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .x-lrg .stockFootnote {
+    right: 5px;
+  }
+  .negative {
+    color: #d81e05;
+  }
+  .positive {
+    color: #00aa00;
+  }
+
+  /* Red */
+/* Dark Grey */
+/* Medium Grey */
+/* Violet */
+/* Green */
+/* Fuschia */
+/* Blue */
+/* Darker Red */
+/* Light Grey */
+/* Light Blue-Grey */
+/* Off White */
+/* Off White (Cool) */
+/* Dark Grey */
+@font-face {
+    font-family: 'Frutiger';
+    src: url('/Common/Fonts/Frutiger-Roman.eot');
+    src: url('/Common/Fonts/Frutiger-Roman.eot?#iefix') format('embedded-opentype'), url('/Common/Fonts/Frutiger-Roman.woff') format('woff'), url('/Common/Fonts/Frutiger-Roman.ttf') format('truetype'), url('/Common/Fonts/Frutiger-Roman.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .AgilityDevBar {
+    display: none;
+  }
+  .AgilityStatusBar {
+    display: none;
+  }
+  /*Generic Styles*/
+  a img {
+    border: none;
+  }
+  /*ul, ul li { padding:0px; margin:0px; list-style-type:none; }*/
+  img {
+    max-width: 100%;
+  }
+  * {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    color: #666;
+  }
+  .wrapper {
+    padding: 0px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  /*----------------------------------------------------------------------------------------*/
+  /*LAYOUT*/
+  .sdButton {
+    padding: 4px 0px 4px 10px;
+    background-image: url(/Images/redButton.png);
+    background-repeat: no-repeat;
+    background-position: left 4px;
+    background-color: #fff;
+    display: inline-block;
+  }
+  .sdButton span {
+    padding: 6px 10px 6px 0px;
+    background-image: url(/Images/redbutton.png);
+    background-position: right top;
+    background-color: #fff;
+    display: inline-block;
+    color: #fff;
+  }
+  #menuHeader {
+    background-image: url(/Images/mobileTheme/menuButtonRowBG.png);
+    height: 54px;
+    border-top: 2px solid #919191;
+    margin-top: -1px;
+  }
+  #menuHeader .MenuButton {
+    text-shadow: 2px 1px 3px #98130b;
+    background-image: url(/Images/mobileTheme/RedMenuButton.png);
+    background-position: right top;
+    padding: 11px 81px 5px 36px;
+    font-weight: 700;
+    display: block;
+    color: #fff;
+    float: left;
+    height: 35px;
+    font-size: 23px;
+  }
+  #footerMegaMenu {
+    background-color: #d5d6d6;
+  }
+  #footerMegaMenu header {
+    border: 1px solid red;
+    background-color: #d62319;
+    border-top: 1px solid #f5cbc9;
+    padding: 10px 10px;
+  }
+  #footerMegaMenu .menuButton {
+    padding-right: 15px;
+    background-image: url(/Images/MenuDownArrow.png);
+    background-position: right 5px;
+    background-repeat: no-repeat;
+    text-shadow: 2px 1px 3px #98130b;
+    color: #fff;
+    font-weight: 700;
+  }
+  #footerMegaMenu small {
+    border-top: 1px solid #fff;
+    display: block;
+    text-align: center;
+    padding: 8px 0px;
+    color: #5d5d5d;
+    font-size: 10px;
+  }
+  #mainContent-twoColumn #main {
+    margin: 15px;
+  }
+  #mainContent-oneColumn #main {
+    margin: 15px;
+  }
+  /*No Column Layout*/
+  #mainContent-full {
+    margin: 15px;
+  }
+  /*HeaderTabs*/
+  #headerTabs {
+    font-size: 0.7em;
+  }
+  #headerTabs h3 a {
+    text-align: center;
+    width: 100%;
+    font-size: 1.2em;
+    color: #787878;
+    text-shadow: 1px 1px #f6f6f6;
+    cursor: pointer;
+    display: inline-block;
+    background: transparent url('/Images/MenuBars.png') no-repeat 10px 48%;
+    height: 35px;
+    line-height: 35px;
+  }
+  #headerTabs h3 {
+    background: linear-gradient(to bottom, #f0f0f0 0%, #c8c8c8 100%);
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+  #headerTabs ul {
+    padding: 0 0 13px 0;
+    margin: 0px;
+    list-style: none;
+    display: none;
+    width: 100%;
+    overflow: hidden;
+    background: transparent url('/Images/BottomMenuStub.gif') repeat-x bottom left;
+  }
+  #headerTabs ul li {
+    list-style-type: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 0 20px 0px 20px;
+    margin: 0;
+    display: block;
+    background-color: #c9c9c9;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #a09f9f;
+  }
+  #headerTabs ul li:first-child {
+    background-color: #c9c9c9;
+    background: -moz-linear-gradient(top, #999999 0%, #c9c9c9 15%, #c9c9c9 100%);
+    background: -webkit-linear-gradient(top, #999999 0%, #c9c9c9 15%, #c9c9c9 100%);
+    background: -ms-linear-gradient(top, #999999 0%, #c9c9c9 15%, #c9c9c9 100%);
+    background: linear-gradient(to bottom, #999999 0%, #c9c9c9 15%, #c9c9c9 100%);
+  }
+  #headerTabs ul li.currentPage {
+    border-top-color: #a09f9f;
+    border: none;
+    background: #a53d38;
+    background: -moz-linear-gradient(top, #a53d38 0%, #d7261c 15%, #d7261c 100%);
+    background: -webkit-linear-gradient(top, #a53d38 0%, #d7261c 15%, #d7261c 100%);
+    background: -ms-linear-gradient(top, #a53d38 0%, #d7261c 15%, #d7261c 100%);
+    background: linear-gradient(to bottom, #a53d38 0%, #d7261c 15%, #d7261c 100%);
+  }
+  #headerTabs ul li.currentPage a {
+    padding-left: 14px;
+    border: none;
+    background: transparent url('/Images/Arrow.png') no-repeat 0% 46%;
+    color: #fff;
+  }
+  #headerTabs ul li a {
+    display: inline-block;
+    color: #5a5a5a;
+    font-weight: 700;
+    position: relative;
+    height: 35px;
+    line-height: 35px;
+    font-size: 1.1em;
+  }
+  /*Utility Menu*/
+  #utilities header {
+    background-image: url(/Images/utilHeaderBG.png);
+    height: 45px;
+    background-position: left bottom;
+    overflow: hidden;
+  }
+  #utilities .logo {
+    margin: 10px 0 10px 5px;
+    display: block;
+    float: left;
+    max-width: 45%;
+  }
+  #utilities .activator {
+    float: right;
+    width: 160px;
+    margin-top: 3px;
+    background-image: url(/Images/mobileTheme/activatorBG2.png);
+    height: 41px;
+    background-position: right 0px;
+    -moz-transition: all 350ms ease;
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+  }
+  #utilities .flag {
+    width: 25px;
+    height: 16px;
+    margin-left: 10px;
+    margin-top: 12px;
+    position: relative;
+    display: block;
+    -moz-transition: all 350ms ease;
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+  }
+  #utilities .close {
+    cursor: pointer;
+    color: #808080;
+    font-size: 14px;
+    text-shadow: 1px 1px 3px #FFFFFF;
+    margin-left: 100px;
+    margin-top: 24px;
+    font-weight: 700;
+    position: relative;
+    display: block;
+    -moz-transition: all 350ms ease;
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+  }
+  #utilities ul {
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    list-style-type: none;
+    max-height: 0px;
+    overflow: hidden;
+    background-image: url(/Images/utilBG.png);
+    text-align: center;
+    color: #707070;
+    font-size: 12px;
+    -moz-transition: all 350ms ease;
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+  }
+  #utilities li {
+    width: 32%;
+    padding: 0px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0;
+    vertical-align: top;
+  }
+  #utilities li a {
+    font-size: 13px;
+    display: block;
+    font-weight: 700;
+  }
+  #utilities li:nth-child(1) a {
+    color: #e80068;
+  }
+  #utilities li:nth-child(3) a {
+    color: #ca6a10;
+  }
+  #utilities li:nth-child(4) a {
+    color: #0080aa;
+  }
+  #utilities .lightBoxSearch a {
+    color: #ab323b;
+  }
+  #utilities .lightBoxCountry a {
+    color: #7f7b00;
+  }
+  #utilities li img {
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+  }
+  #utilities.selected .activator {
+    background-position: right bottom;
+  }
+  #utilities.selected .flag {
+    margin-top: -20px;
+  }
+  #utilities.selected ul {
+    max-height: 320px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+  #utilities ul li a span {
+    font-size: 12px;
+    display: block;
+    margin-top: 80px;
+    color: #d81e05;
+  }
+  /*Site Nav*/
+  .siteHeader {
+    background-image: url(/Images/siteHeaderBG.png);
+    height: 49px;
+    border-top: 1px solid #b3b3b3;
+    border-bottom: 1px solid #b3b3b3;
+    margin-top: -1px;
+    overflow: hidden;
+  }
+  .siteHeader .MenuButton {
+    cursor: pointer;
+    text-shadow: 2px 1px 3px #98130b;
+    background-image: url(/Images/bigRedMenyButtonBG.png);
+    background-position: right top;
+    padding: 16px 60px 0px 10px;
+    font-weight: 700;
+    display: block;
+    color: #fff;
+    float: left;
+    height: 31px;
+  }
+  .SignIn {
+    background-image: url(/Images/mobileTheme/signOnBTN.png);
+    font-size: 10px;
+    font-weight: 500;
+    padding: 0px;
+    width: 105px;
+    height: 40px;
+    display: block;
+    float: right;
+    margin-top: 6px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  .SignIn #lbl_drpSignOn {
+    margin-top: 10px;
+  }
+  .SignIn.redButton {
+    background-image: url(/Images/mobileTheme/signOnBTN.png);
+  }
+  .SignIn.champaignButton {
+    background-image: url(/Images/mobileTheme/SignOnChamp.png);
+  }
+  .aShowAllLink {
+    background-image: url(/Images/mobileTheme/signOnBTN2.png);
+    width: 150px;
+    height: 45px;
+    display: block;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    padding: 2px 0 0 0;
+  }
+  .SignIn span {
+    display: block;
+    padding: 0px;
+    width: 102px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    background-image: none;
+    color: #fff;
+    margin-top: 10px;
+  }
+  .siteNav {
+    display: none;
+    background-color: #d62319;
+    font-weight: 700;
+    font-size: 14px;
+    text-shadow: 2px 1px 3px #98130b;
+    clear: right;
+    margin-top: -3px;
+  }
+  .siteNav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    overflow: hidden;
+  }
+  .siteNav > ul {
+    border-top: 1px solid #be3028;
+    padding-bottom: 2px;
+  }
+  .siteNav li {
+    padding: 0px;
+    margin: 0px;
+  }
+  .siteNav .node {
+    border-top: 1px solid #e6493e;
+    border-bottom: 1px solid #be281f;
+    display: block;
+    position: relative;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding: 15px 60px 15px 10px;
+  }
+  .siteNav .arrow {
+    display: block;
+    width: 55px;
+    height: 44px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    background-image: url(/Images/navArrowSprite.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+  .siteNav ul ul:first-of-type > li:first-child > .node {
+    background-image: url(/Images/navLvl2Drop.png);
+    border-top: none;
+    background-repeat: repeat-x;
+  }
+  .siteNav ul ul {
+    height: 0px;
+    background-color: #961100;
+    background-image: url(/Images/navLvl2BG.png);
+  }
+  .siteNav ul ul .node {
+    border-top: 1px solid #db4533;
+    border-bottom: 1px solid #690d00;
+  }
+  .siteNav ul ul ul {
+    background-color: #660c00;
+    background-image: url(/Images/navLvl3BG.png);
+  }
+  .siteNav ul ul ul .node {
+    border-top: 1px solid #9a3024;
+    border-bottom: 1px solid #310c07;
+    background-image: none;
+  }
+  .siteNav li.expanded .subLinks > ul {
+    height: auto;
+  }
+  .siteNav li li.expanded ul {
+    height: auto;
+  }
+  .siteNav li.expanded > .node .arrow {
+    background-position: right center;
+  }
+  #mainFooter .footerNav {
+    display: none;
+    background-color: #d62319;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: -2px;
+    text-shadow: 2px 1px 3px #98130b;
+  }
+  #mainFooter .footerNav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    overflow: hidden;
+  }
+  #mainFooter .footerNav > ul {
+    border-top: 1px solid #be3028;
+  }
+  #mainFooter .footerNav li {
+    padding: 0px;
+    margin: 0px;
+  }
+  #mainFooter .footerNav .node {
+    border-top: 1px solid #e6493e;
+    border-bottom: 1px solid #be281f;
+    display: block;
+    position: relative;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding: 15px 60px 15px 10px;
+  }
+  #mainFooter .footerNav .arrow {
+    display: block;
+    width: 55px;
+    height: 44px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    background-image: url(/Images/navArrowSprite.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+  #mainFooter .footerNav ul ul:first-of-type > li:first-child > .node {
+    background-image: url(/Images/navLvl2Drop.png);
+    border-top: none;
+    background-repeat: repeat-x;
+  }
+  #mainFooter .footerNav ul ul {
+    height: 0px;
+    background-color: #961100;
+    background-image: url(/Images/navLvl2BG.png);
+  }
+  #mainFooter .footerNav ul ul .node {
+    border-top: 1px solid #db4533;
+    border-bottom: 1px solid #690d00;
+  }
+  #mainFooter .footerNav ul ul ul {
+    background-color: #660c00;
+    background-image: url(/Images/navLvl3BG.png);
+  }
+  #mainFooter .footerNav ul ul ul .node {
+    border-top: 1px solid #9a3024;
+    border-bottom: 1px solid #310c07;
+    background-image: none;
+  }
+  #mainFooter .footerNav li.expanded .subLinks > ul {
+    height: auto;
+  }
+  #mainFooter .footerNav li li.expanded ul {
+    height: auto;
+  }
+  #mainFooter .footerNav li.expanded > .node .arrow {
+    background-position: right center;
+  }
+  .btnDefault {
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding-left: 12px;
+    background-image: url(/Images/btn.jpg);
+  }
+  .btnDefault span {
+    display: block;
+    padding: 9px 12px 7px 0px;
+    background-image: url(/Images/btn.jpg);
+    background-position: right top;
+    background-color: #fff;
+  }
+  .btnDefault:hover {
+    background-position: left -36px;
+  }
+  .btnDefault:hover span {
+    background-position: right -36px;
+  }
+  #mainFooter .btnDefault,
+  #content .btnDefault {
+    color: #fff;
+  }
+  .btnCancel {
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding-left: 12px;
+    background-image: url(/Images/btn.jpg);
+    background-position: left -80px;
+  }
+  .btnCancel span {
+    display: block;
+    padding: 9px 12px 7px 0px;
+    background-image: url(/Images/btn.jpg);
+    background-position: right top;
+    background-color: #fff;
+    background-position: right -80px;
+  }
+  .btnCancel:hover {
+    background-position: left -116px;
+  }
+  .btnCancel:hover span {
+    background-position: right -116px;
+  }
+  #mainFooter .btnCancel,
+  #content .btnCancel {
+    color: #fff;
+  }
+  #stockTicker {
+    background-color: #fff;
+    border-top: 1px solid #fff;
+  }
+  #stockTicker h4 {
+    display: none;
+    color: #000;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+  }
+  #stockTicker small {
+    display: none;
+    margin-bottom: 8px;
+  }
+  #stockTicker .tickerHead {
+    padding: 10px;
+    text-align: center;
+  }
+  #stockTicker select {
+    padding: 5px;
+    width: 80%;
+  }
+  #stockTicker .btnDefault {
+    height: 32px;
+    width: 32px;
+    padding: 0;
+    line-height: 32px;
+    text-align: center;
+    background: url('/Images/btn_stockTicker_submit_off.png') no-repeat left top;
+  }
+  #stockTicker .btnDefault:hover {
+    background-image: url('/Images/btn_stockTicker_submit_on.png');
+  }
+  #stockTicker .btnDefault span {
+    padding: 0;
+    background: none;
+  }
+  #mainFooter #minimize-stockTicker {
+    margin-top: 8px;
+    border-top: 4px solid #9e57a3;
+  }
+  #mainFooter #minimize-stockTicker a {
+    display: block;
+    padding: 2px 0 0 10px;
+    color: #9e57a3;
+    font-weight: bold;
+  }
+  .ticker {
+    padding: 10px 0;
+    background-color: #efefef;
+    background-image: url(/Images/tickerBGMobile.jpg);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+  }
+  .ticker ul {
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 0 5px 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+  }
+  .ticker li {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding: 0px 20px;
+    font-weight: 700;
+  }
+  .ticker em {
+    color: #2e2e2e;
+    font-style: normal;
+    padding-right: 5px;
+    padding-top: 8px;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+  }
+  .ticker mark {
+    color: #2e2e2e;
+    background-color: transparent;
+    display: block;
+  }
+  .ticker mark + span {
+    font-weight: 600;
+  }
+  .ticker .positive {
+    color: green;
+  }
+  .ticker .negative {
+    color: red;
+  }
+  /*ACCORDION
+      ---------------------------*/
+  .accordion {
+    background-color: #EEEDE8;
+    padding: 2px 10px;
+    margin: 0px -15px;
+  }
+  .accordion .content {
+    background-color: #fff;
+    padding: 0px;
+    margin: 15px 0;
+    padding-right: 15px;
+  }
+  .accordion article {
+    display: none;
+    padding: 10px 10px 5px 10px;
+  }
+  .accordion header {
+    padding: 15px;
+    font-weight: 100;
+    font-size: 18px;
+    background-image: url(/Images/mobileTheme/plusMinus.png);
+    color: #666666;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: right 15px;
+  }
+  .accordion p {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0;
+  }
+  .accordion h3 {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+  }
+  .accordion header.selected {
+    background-position: right -148px;
+  }
+  .accordion .content ul {
+    margin-top: 20px;
+    padding: 0px;
+    list-style-type: none;
+  }
+  .accordion .content ul li {
+    margin-top: 8px;
+    padding-left: 18px;
+    background-image: url(//scotiabankfiles.azureedge.net/scotiabank-el-salvador/images/icn-red-check-mark.png);
+    background-repeat: no-repeat;
+    background-position: left 1px;
+  }
+  .accordion .content ol li {
+    background-image: none;
+    padding-left: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  .dropShadow {
+    text-shadow: 1px 1px 1px #000;
+  }
+  .dropShadowLight {
+    text-shadow: 1px 1px 1px #333;
+  }
+  .dropShadowWhite {
+    text-shadow: 1px 1px 1px #fff;
+  }
+  h4 {
+    color: #C00;
+  }
+  .fontXLarge {
+    font-size: 2.1em;
+  }
+  .fontLarge {
+    font-size: 1.5em;
+  }
+  .fontMedia {
+    font-size: 1em;
+  }
+  .fontSmall {
+    font-size: 0.8em;
+  }
+  .fontXSmall {
+    font-size: 6.5em;
+  }
+  .fontBold {
+    font-weight: 700;
+  }
+  .fontWhite a,
+  a.fontWhite,
+  .fontWhite {
+    color: #fff;
+  }
+  .genericButton {
+    padding: 4px 14px;
+    color: #fff;
+    background-color: #a33038;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .mobilePopUpBox {
+    position: absolute;
+    width: 100%;
+    z-index: 600;
+    display: none;
+  }
+  .mobilePopUpBox .inner {
+    margin: -15px 0 0 0;
+    padding: 20px;
+    color: #fff;
+    height: 100%;
+  }
+  .mobilePopUpBox .controlCon {
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+  }
+  .mobileLightBox {
+    background-color: #fff;
+    padding: 0px 0px 35px 25px;
+    margin-top: 100px;
+  }
+  .mobileLightBox h4 {
+    color: #666666;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 35px;
+    margin-left: 5%;
+  }
+  .mobilePopTxtBox {
+    margin-top: 5px;
+    color: #979596;
+    background-color: #f4f4f4;
+    border: 1px solid #c4c4c4;
+    border-bottom: 0px;
+    border-right: 0px;
+    padding: 3px;
+  }
+  .mobileLightBox .jqCloseMe {
+    width: 20px;
+    height: 20px;
+  }
+  .mobileLightBox .jqCloseMe img {
+    width: 20px;
+    height: 20px;
+  }
+  .mobileOr {
+    color: #4d4c4c;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0 0 10px 0;
+  }
+  .mobileCurrentLocationBtn {
+    font-size: 14px;
+    font-weight: 700;
+    color: #4d4c4c;
+    display: inline-block;
+    background-image: url(/Images/mobileTheme/mobileCurrentLocationBtn.jpg);
+    padding-right: 15px;
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+  .mobileCurrentLocationBtn span {
+    padding: 10px 0 8px 35px;
+    background-image: url(/Images/mobileTheme/mobileCurrentLocationBtn.jpg);
+    display: inline-block;
+    background-position: left top;
+    background-repeat: no-repeat;
+  }
+  .buttonActor {
+    cursor: pointer;
+  }
+  .dropS {
+    background-image: url(/Images/mobileTheme/mainSprite.png);
+    background-position: left -240px;
+    background-repeat: repeat-x;
+    height: 40px;
+    position: absolute;
+    width: 100%;
+    z-index: 200;
+  }
+  .candyFont {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  .candyMagenta {
+    color: #d1005d;
+  }
+  .candyRed {
+    color: #a33038;
+  }
+  .candyOrange {
+    color: #bf650f;
+  }
+  .candyGreen {
+    color: #7e7a00;
+  }
+  .candycyan {
+    color: #0081ab;
+  }
+  .candyBlue {
+    color: #003479;
+  }
+  .candyPurple {
+    color: #a74dc3;
+  }
+  .candyBlack {
+    color: #000;
+  }
+  .candyGrey {
+    color: #646464;
+  }
+  .collapsibleArea {
+    margin-bottom: 26px;
+  }
+  .collapsibleArea .inner {
+    display: none;
+  }
+  .collapsibleArea.open .inner {
+    display: inherit;
+  }
+  .collapsibleArea .control {
+    background-color: #c01803;
+    height: 30px;
+    position: absolute;
+    width: 100%;
+    background-image: url(/Images/mobileTheme/collapseBTN.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top: -3px;
+    z-index: 250;
+  }
+  span.checkMark {
+    font-size: 0.8em;
+    display: block;
+    padding: 5px 0px 0px 20px;
+    background-image: url(/Images/mobileTheme/chMark.png);
+    background-position: left 7px;
+    background-repeat: no-repeat;
+  }
+  .asPlainText {
+    padding: 0px 0px 0px 20px;
+  }
+  .asPlainText p {
+    font-size: 0.9em;
+  }
+  ul.redChecks li {
+    margin-bottom: 10px;
+    padding-left: 30px;
+    background-position: top left;
+    background-image: url(/Images/mobileTheme/redCheck.png);
+    background-repeat: no-repeat;
+  }
+  .leaderImageArea .mask {
+    overflow: hidden;
+    width: 100%;
+  }
+  .leaderImageArea .callToActionCon .one,
+  .leaderImageArea .callToActionCon .one {
+    padding: 20px;
+    border-top: 2px solid #cfcfcf;
+  }
+  .leaderImageArea .callToActionCon {
+    margin-top: -78px;
+  }
+  .rotatorExpandableArea {
+    height: 90px;
+    margin-top: -96px;
+    position: relative;
+    z-index: 200;
+    border-top: 2px solid #efefef;
+  }
+  #content a {
+    color: #E00000;
+  }
+  .iRotator {
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+    margin-top: -4px;
+  }
+  .iRotator ul#iRotator-slider {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    width: 15000px;
+    position: relative;
+  }
+  .iRotator ul#iRotator-slider li {
+    list-style-type: none;
+    padding: 0px;
+    float: left;
+    list-style-image: none;
+    margin: 0px;
+    width: 305px;
+    position: relative;
+  }
+  /* this is overrides for the slideshow rotator */
+  .iRotator.slideshowRot {
+    margin: -15px -15px 11px -15px;
+  }
+  #rotatorNav.slideshowRotNav {
+    margin: 11px -15px 0px -15px;
+  }
+  #rotatorNav.slideshowRotNav ul {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #rotatorNav.slideshowRotNav ul li {
+    margin: 0px 2px;
+  }
+  .leaderImageCTA {
+    height: 80px;
+    margin-top: -100px;
+    z-index: 100;
+    position: relative;
+    width: 80%;
+    margin-left: 8%;
+  }
+  .leaderImageCTA .bottom {
+    background-image: url(/Images/leaderCTABG.png);
+    background-position: right bottom;
+    height: 60px;
+    position: relative;
+  }
+  .leaderImageCTA .top {
+    background-image: url(/Images/leaderCTABG_TOP.png);
+    background-position: left top;
+    height: 20px;
+    position: relative;
+  }
+  .leaderImageCTA .inner {
+    padding: 0 15px 0 15px;
+  }
+  .mobile {
+    font-family: Arial;
+    font-size: 1.5em;
+    background-image: none;
+  }
+  .mobile ul,
+  .mobile ul li {
+    list-style-type: none;
+  }
+  .mobile img {
+    width: 100%;
+  }
+  /*#bigDropMenu {border: 0; margin-top:0px;  padding:0px;}
+  #bigDropMenu .inner { background-image:url(/Images/mobileTheme/mainSprite.png); background-position:center -163px; height:56px; margin-bottom:0px; }
+  #bigDropMenu p { height:55px; background-image:url(/Images/mobileTheme/bigRedDropNav.png); background-position:right top; text-align:center; width:45%; margin:0px; }
+  #bigDropMenu p, #bigDropMenu a { color:#fff; font-size:1.5em; font-weight:700;}
+  #bigDropMenu p span, #bigDropMenu a span { margin-top:10px; display:inline-block; padding-right:35px; background-position:68px -14px; background-repeat:no-repeat;}
+  #bigDropMenu p span.dropShadow, #bigDropMenu a span.dropShadow { margin-top:14px; text-shadow: 2px 2px 2px #861812; }
+  
+  #bigDropMenu #bigDropMenuButton { text-align:right; }
+  #bigDropMenu #bigDropMenuButton span { display:block;  margin-right:60px; padding-right:30px; background-image:url(/Images/mobileTheme/bigRedDownArrow.png); background-position:right 7px;  }
+  
+  
+  
+  #bigDropMenu .nav  { position:absolute; background-color:#d82214; background: #d62319; font-size:.7em; z-index:400; display:none;  margin-top:-1px;}
+  #bigDropMenu .nav li { background-repeat:no-repeat; border-top:1px solid #bd1b05; position:relative; }
+  #bigDropMenu .nav li a { border-top:1px solid #de402b; display:block; padding:10px 35px 10px 30px;}
+  
+  #bigDropMenu .nav li span { position:absolute; margin-top:-7px;  right:15px; top:2em; display:block; width:17px; height:18px; background-image:url(/Images/mobileTheme/mobileMegaMenuArrow.png); background-repeat:no-repeat; }
+  #bigDropMenu .nav li span.open { background-position:center bottom; }
+  #bigDropMenu .nav li ul { display:none; background-image:url(/Images/mobileTheme/mobileNavDropDownBG.png);}
+  
+  #bigDropMenu .nav li ul li { border-top:1px solid #6e0d00; }
+  #bigDropMenu .nav li ul li a { border-top:1px solid #b11f0c; }
+  #bigDropMenu .nav li ul li:first-child { border-top:1px solid #5d0c01; }
+  #bigDropMenu .nav li ul li:first-child a { border-top:1px solid #6c1105;}*/
+  /*#bigDropMenu .nav li a:hover {text-decoration:none; }*/
+  #imageRotatorSwipeZone {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    z-index: 320;
+    background-image: url(/Images/mobileTheme/clear.png);
+  }
+  #mainImageRotator {
+    margin-top: -2px;
+  }
+  #mainImageRotator ul {
+    width: 12000px;
+    padding: 0px;
+    list-style-type: none;
+    list-style-image: none;
+    border: 4px solid blue;
+    overflow: hidden;
+  }
+  #mainImageRotator ul li {
+    float: left;
+    margin-top: -9px;
+    border: 20px solid green;
+    width: 20%;
+  }
+  #mainImageRotator .moreButton a,
+  #mainImageRotator .moreButton span {
+    cursor: pointer;
+    display: inline-block;
+    color: #d81e05;
+    position: absolute;
+    z-index: 340;
+    padding-right: 15px;
+    background-image: url(/Images/mobileTheme/mainSprite.png);
+    background-position: right -848px;
+  }
+  #rotatorNav ul {
+    display: inline-block;
+    padding-top: 3px;
+    height: 15px;
+    margin-top: 7px;
+  }
+  #rotatorNav ul li {
+    display: inline-block;
+    float: left;
+    width: 10px;
+    background-image: url(/Images/mobileTheme/rotatorNav.png);
+    background-position: right top;
+    margin: 0px 4px;
+    background-repeat: no-repeat;
+  }
+  #rotatorNav ul li.current {
+    background-position: left top;
+  }
+  #rotatorNav {
+    text-align: center;
+    background-image: url(/Images/mobileTheme/mainSprite.png);
+    background-repeat: repeat-x;
+    background-position: left -872px;
+    height: 30px;
+    border-top: 1px solid #bababa;
+    border-bottom: 1px solid #bababa;
+    margin-top: -4px;
+  }
+  #content #homePagecollapsibleArea {
+    padding: 0px;
+    margin: 0px;
+  }
+  #homePagecollapsibleArea {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+  }
+  #homePagecollapsibleArea li {
+    display: table;
+    vertical-align: middle;
+    font-size: 0.8em;
+    background-color: #e9e9e9;
+    border-top: 2px solid #fff;
+    border-bottom: 1px solid #b7b7b7;
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(/Images/collRightArrow.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+  }
+  #homePagecollapsibleArea li a {
+    display: table-cell;
+    vertical-align: middle;
+    color: #666;
+  }
+  #homePagecollapsibleArea li a span {
+    display: inline-block;
+    float: left;
+    width: 36%;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 700;
+    padding: 10px 0;
+  }
+  #homePagecollapsibleArea li a em {
+    display: block;
+    float: left;
+    width: 46%;
+    padding: 10px 4% 10px 5%;
+    font-style: normal;
+    border-left: 2px solid #f7f7f7;
+    margin-left: -10px;
+    margin-right: 3%;
+  }
+  #homePagecollapsibleArea li:nth-child(2) a {
+    border-color: #0081ab;
+  }
+  #homePagecollapsibleArea li:nth-child(3) a {
+    border-color: #a74dc3;
+  }
+  #homePagecollapsibleArea li.bBlue a {
+    border-left: 5px solid #0081ab;
+  }
+  #homePagecollapsibleArea li.bPink a {
+    border-left: 5px solid #d1005d;
+  }
+  #homePagecollapsibleArea li.bPurple a {
+    border-left: 5px solid #a74dc3;
+  }
+  #homePagecollapsibleArea li.bNavy a {
+    border-left: 5px solid #104181;
+  }
+  #homePagecollapsibleArea li.bBurgundy a {
+    border-left: 5px solid #a33038;
+  }
+  #homePagecollapsibleArea li.bGreen a {
+    border-left: 5px solid #7e7a00;
+  }
+  #homePagecollapsibleArea li.bOrange a {
+    border-left: 5px solid #bf650f;
+  }
+  .aSignOnLink {
+    width: 105px;
+    height: 45px;
+    display: block;
+    float: right;
+    margin-top: 6px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    padding: 0px;
+  }
+  .aShowAllLink {
+    background-image: url(/Images/mobileTheme/signOnBTN2.png);
+    width: 150px;
+    height: 45px;
+    display: block;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    padding: 2px 0 0 0;
+  }
+  .aSignOnLink.redButton {
+    background-image: url(/Images/mobileTheme/signOnBTN.png);
+  }
+  .aSignOnLink.champaignButton {
+    background-image: url(/Images/mobileTheme/SignOnChamp.png);
+  }
+  #mainFooter {
+    /*background-color: #d5d6d6;*/
+    background-color: #d5d6d6;
+  }
+  #mainFooter #copyRight {
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    display: none;
+  }
+  .imageCountry .country {
+    vertical-align: top;
+    font-weight: 700;
+  }
+  #mainFooter h2 {
+    margin: 0;
+    color: #515151;
+  }
+  #mainFooter a {
+    color: #EE1E12;
+  }
+  #mainFooter p {
+    color: #666;
+  }
+  #mainFooter ul.FooterFirstSection {
+    border: 1px solid #d5d6d6;
+    display: block;
+    background-color: #d5d6d6;
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0;
+  }
+  #mainFooter ul.FooterFirstSection li {
+    margin: 10px;
+    padding: 10px 20px;
+  }
+  #mainFooter ul.FooterFirstSection li:first-child {
+    display: none;
+  }
+  #mainFooter ul.FooterFirstSection li {
+    background-color: #f1f0ea;
+    display: block;
+  }
+  #mainFooter ul.FooterFirstSection li:nth-child(2) {
+    color: #ee1e12;
+  }
+  #mainFooter ul.FooterLinks {
+    border-bottom: 1px solid #707070;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 12px;
+  }
+  #mainFooter ul.FooterLinks li {
+    display: inline;
+  }
+  #mainFooter .bigDropMenu .nav li a {
+    padding: 0px 0px 0px 30px;
+  }
+  #mainFooter .legal .dropShadowLight {
+    text-shadow: none;
+    color: #cdb8b6;
+    font-size: 0.7em;
+    margin-left: 15px;
+  }
+  #mainFooter .bigDropMenu a {
+    color: #fff;
+  }
+  #mainFooter .bigDropMenu .inner {
+    background-image: none;
+  }
+  #mainFooter .bigDropMenu .inner > div {
+    display: none;
+  }
+  #mainFooter .bigDropMenu p {
+    background-image: none;
+  }
+  #mainFooter .bigDropMenuButton {
+    text-align: left;
+  }
+  #mainFooter .bigDropMenuButton span {
+    display: inline-block;
+    color: #fff;
+    margin-top: 3px;
+    background-position: right 15px;
+  }
+  #chivasContent .badge {
+    display: block;
+    margin: 10px auto 0px auto;
+    max-width: 60%;
+  }
+  /*PDF List Selector
+      ---------------*/
+  .pdfList {
+    overflow: hidden;
+  }
+  .pdfList select {
+    width: 88%;
+    height: 30px;
+    border: 1px solid #ccc;
+    float: left;
+    vertical-align: bottom;
+    margin-top: 5px;
+  }
+  .pdfList .sdButton {
+    float: left;
+    margin-left: 5px;
+    vertical-align: bottom;
+  }
+  /*Split Collapsible Multi Module*/
+  .splitCollapsible {
+    border: 10px solid #d5d6d6;
+    background-color: #ffffff;
+    margin: 0px -20px;
+    padding: 0px;
+  }
+  .splitCollapsible > h2 {
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 10px 30px 10px 10px;
+    cursor: pointer;
+    background: url("/Images/plusMinus.png") no-repeat right 10px;
+    font-size: 16px;
+  }
+  .splitCollapsible > div {
+    padding: 0 15px 8px 0;
+    margin: 0 0 0 15px;
+    display: none;
+  }
+  .splitCollapsible > div > a {
+    word-wrap: break-word;
+  }
+  .splitCollapsible.open {
+    background-color: #f9f9f7;
+    padding-bottom: 10px;
+  }
+  .splitCollapsible.open > h2 {
+    background-position: right -153px;
+  }
+  .splitCollapsible ~ .splitCollapsible {
+    border-top: 2px solid #d5d6d6;
+  }
+  .splitCollapsible .splitCollapsible {
+    border: none;
+    border-top: 1px dashed #ccc;
+    background-color: transparent;
+    margin: 5px 0 0 0;
+    padding: 5px 0px 2px 5px;
+  }
+  .splitCollapsible .splitCollapsible > h2 {
+    background-image: none;
+    font-size: 14px;
+    padding: 2px 0 3px 15px;
+  }
+  .splitCollapsible .splitCollapsible > h2:before {
+    content: '+';
+    position: absolute;
+    left: 0px;
+    top: 2px;
+  }
+  .splitCollapsible .splitCollapsible.open > h2:before {
+    content: '-';
+    top: 0px;
+  }
+  .splitCollapsible .splitCollapsible > div {
+    padding: 0px;
+  }
+  /*Cascading Dropdown links*/
+  .cascadingDropdownLinks {
+    margin: 10px 0px;
+    padding: 10px 15px 15px 15px;
+    background-color: #f9f9f7;
+    border: 1px solid #e4e4e4;
+    overflow: hidden;
+  }
+  .cascadingDropdownLinks label {
+    display: block;
+    margin-top: 5px;
+  }
+  .cascadingDropdownLinks select {
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  .cascadingDropdownLinks .button {
+    margin-top: 10px;
+  }
+  /*CONTACT US
+  -------------------------*/
+  #contactForm {
+    overflow: hidden;
+    text-align: left;
+  }
+  #contactForm h2 {
+    margin-top: 0;
+  }
+  #contactForm aside {
+    display: block;
+    margin: 5px 0;
+    font-weight: 700;
+  }
+  #contactForm small {
+    display: block;
+    margin-bottom: 10px;
+    font-size: inherit;
+  }
+  #contactForm em {
+    color: #D81E05;
+    font-weight: 700;
+  }
+  #contactForm a {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+  }
+  #contactForm label {
+    display: block;
+    margin: 5px 0;
+    text-align: left;
+    width: 100%;
+    position: relative;
+    margin-right: 2px;
+  }
+  #contactForm input[type=text] {
+    width: 88%;
+    border: 1px solid #ccc;
+    height: 25px;
+    display: block;
+    margin-bottom: 15px;
+  }
+  #contactForm select {
+    width: 90%;
+    height: 23px;
+  }
+  #contactForm .group {
+    overflow: hidden;
+    clear: both;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  #contactForm .group label {
+    padding: 5px 0;
+  }
+  #contactForm .group .disabled {
+    display: none;
+  }
+  #contactForm .comments {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+  #contactForm .comments input[type=text] {
+    width: 90%;
+    height: 70px;
+  }
+  #contactForm ul {
+    display: block;
+    margin: 10px 0;
+  }
+  #contactForm ul li {
+    display: block;
+    color: #D81E05;
+  }
+  #contactForm .comments textarea {
+    width: 88%;
+  }
+  #contactForm.chivas a {
+    display: inline-block;
+    width: auto;
+    margin: 0px;
+  }
+  /*Referral From
+      -------------------------*/
+  .referralForm {
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  .referralForm h3 {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  .referralForm label {
+    display: block;
+    width: 100%;
+    padding-right: 20px;
+    margin: 0px 2px 0 0;
+    position: relative;
+    font-size: 14px;
+  }
+  .referralForm label .validation {
+    position: absolute;
+    right: 2px;
+    bottom: 18px;
+    margin-right: 16px;
+  }
+  .referralForm label input[type=text] {
+    width: 90%;
+    border: 1px solid #ccc;
+    height: 25px;
+    margin-bottom: 15px;
+    margin-top: 2px;
+  }
+  .referralForm label select {
+    width: 90%;
+    height: 28px;
+    margin-bottom: 20px;
+    margin-top: 2px;
+  }
+  .referredData {
+    position: relative;
+    background-color: #f9f9f7;
+    border: 1px solid #e3e3e3;
+  }
+  .referredData .delete {
+    position: absolute;
+    padding-right: 15px;
+    top: 10px;
+    right: 15px;
+    text-decoration: underline;
+    background-image: url(/Images/deleteIcon.jpg);
+    background-repeat: no-repeat;
+    background-position: right 2px;
+    font-size: 12px;
+  }
+  #addRefference {
+    margin-top: 15px;
+    text-align: left;
+    display: block;
+  }
+  .submitReference {
+    margin-top: 15px;
+    display: block;
+  }
+  #ReferredsContainer {
+    margin: 0 -15px 20px -15px;
+  }
+  #ReferredsContainer .referralForm {
+    padding: 15px;
+    margin-top: 15px;
+  }
+  /*Error Summary
+      ---------------*/
+  .ErrorSummary {
+    padding: 0 0 10px 0;
+    display: none;
+    color: #bf121b;
+    font-size: 12px;
+  }
+  .ErrorSummary h4 {
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+  .ErrorSummary ul {
+    padding: 0px;
+  }
+  .validation-summary-errors {
+    display: block;
+  }
+  .validation {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 20px;
+    height: 20px;
+    background-image: url(/Images/validationSprite.jpg);
+    background-repeat: no-repeat;
+    display: none;
+  }
+  .field-validation-valid {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    background-position: 2px top;
+  }
+  .field-validation-error {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    background-position: 2px -71px;
+  }
+  /*a.button, a.button:link, a.button:visited { padding: 4px 10px 4px 16px; cursor: pointer; color: #fff; border: 0; background-color: transparent; background-repeat: no-repeat; background-position: 0px top; display: inline-block; *display: inline; zoom: 1; background-image: url(/Images/buttonBG.jpg); }
+      a.button span { font-family: Arial,Helvetica,sans-serif; color:#fff; font-size: 16px; background-repeat: no-repeat; display: inline-block; *display: inline-block; zoom: 1; padding: 4px 13px 4px 0px; background-position: right 0px; }
+      a.button:hover, a.button:active { background-position: 0 -36px; }
+      a.button:hover span, a.button:active span { background-position: right -45px; }*/
+  .button {
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #bd0000;
+    border-radius: 4px;
+  }
+  .button span {
+    color: #fff;
+    padding: 6px 13px 7px 13px;
+    border-top: 1px solid #ffa5a5;
+    display: block;
+    background-color: #e51918;
+    border-radius: 4px;
+  }
+  .button:hover {
+    text-decoration: none;
+  }
+  .button:hover span {
+    background-color: #f72f2f;
+  }
+  .button.back span:before {
+    content: '\25C4';
+    font-size: 8px;
+    position: relative;
+    left: -3px;
+    top: -2px;
+  }
+  .button.next span:after {
+    content: '\25BA';
+    font-size: 8px;
+    position: relative;
+    right: -3px;
+    top: -2px;
+  }
+  .button.cta {
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #be7418;
+    border-radius: 4px;
+  }
+  .button.cta span {
+    color: #fff;
+    padding: 6px 13px 7px 13px;
+    border-top: 1px solid #f6dab7;
+    display: block;
+    background-color: #e8a249;
+    border-radius: 4px;
+  }
+  .button.cta:hover {
+    text-decoration: none;
+  }
+  .button.cta:hover span {
+    background-color: #efa74e;
+  }
+  .button.disabled,
+  .button.disabled:hover {
+    font-size: 14px;
+    color: #fff;
+    cursor: default;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding-left: 12px;
+    background-image: url(/Images/btn.jpg);
+    background-position: left -80px;
+    text-decoration: none;
+    border: none;
+  }
+  .button.disabled span,
+  .button.disabled:hover span {
+    display: block;
+    padding: 9px 12px 7px 0px;
+    background-image: url(/Images/btn.jpg);
+    background-position: right top;
+    background-color: #fff;
+    background-position: right -80px;
+    text-decoration: none;
+    border: none;
+  }
+  .bigImage {
+    position: relative;
+    margin: 0 0px 15px 0px;
+  }
+  .contactVerticalItems {
+    float: left;
+    clear: both;
+    background-color: #d5d6d6;
+  }
+  .toggle,
+  .descriptionText,
+  .contactVerticalItems ul {
+    background-color: #fff;
+    margin: 10px 10px 0 10px;
+    padding: 10px;
+  }
+  .contactVerticalItems ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 10px;
+  }
+  .contactVerticalItems ul li {
+    padding-left: 0px;
+  }
+  .descriptionText {
+    margin-top: -10px;
+    margin-bottom: 0px;
+  }
+  .contactBlurb div.right {
+    width: 100%;
+  }
+  /*#mainFooter { background-color:#8c160b; background-image:url(/Images/mobileTheme/footerBGDotted.png); background-repeat:repeat-x;}*/
+  .contactBlurb {
+    clear: both;
+    background-color: #d5d6d6;
+    padding: 10px;
+    font-size: 13px;
+    margin: 0 -15px 20px -15px;
+  }
+  .contactBlurb .wrapper {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 0px 8px 8px 8px;
+  }
+  .contactBlurb.active .wrapper {
+    display: block;
+  }
+  .contactBlurb h2 {
+    padding: 8px;
+    margin: 0px;
+    background-color: #fff;
+  }
+  #content .contactBlurb h2 a {
+    color: #5a5959;
+    display: block;
+    background-image: url(/Images/mobileTheme/plusMinus.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+  .contactBlurb p {
+    margin: auto;
+  }
+  .contactBlurb .right {
+    float: none;
+  }
+  .contactVerticalItems ul {
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+  }
+  .contactVerticalItems li {
+    padding: 10px 0px 10px 0px;
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    position: relative;
+  }
+  .contactVerticalItems li:first-child {
+    border-top: 1px solid #fff;
+  }
+  .contactVerticalItems nav {
+    margin-top: 15px;
+  }
+  .contactBlurb a.button {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    color: #fff;
+    font-weight: 700;
+  }
+  .contactBlurb .button span {
+    display: inline-block;
+    padding: 7px 10px 7px 0px;
+    background-position: right top;
+  }
+  .contactBlurb .descriptionText {
+    padding: 0px;
+    margin: 0px;
+  }
+  .contactBlurb .descriptionText p {
+    margin-bottom: 15px;
+  }
+  a.redBTN,
+  a.redBTN span {
+    background-image: url(/Images/redButton.png);
+  }
+  a.champagneBTN,
+  a.champagneBTN span {
+    background-image: url(/Images/greyButton.png);
+  }
+  #footerLinks {
+    /*background-image:url(/Images/mobileTheme/mainSprite.png); background-position:center -340px; background-color:#AE1807;*/
+    margin-bottom: 0px;
+    padding: 0px 0 15px 0;
+    background-color: #d5d6d6;
+    display: block;
+    border-bottom: 1px solid #808080;
+    text-align: center;
+  }
+  #footerLinks li a,
+  #footerLinks li a small,
+  #footerLinks li a span {
+    color: #d81e05;
+    font-size: 12px;
+  }
+  #footerLinks li {
+    display: inline-block;
+  }
+  #footerLinks li a {
+    padding: 0 5px;
+    border-right: 1px solid #9c9c9c;
+  }
+  #footerLinks li:last-child a {
+    border: none;
+  }
+  #footerLinks li a:hover {
+    text-decoration: none;
+  }
+  #mainFooter .legal {
+    padding: 8px 0px;
+  }
+  #mainFooter .legal .small {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    text-align: left;
+    color: #cdb8b6;
+    font-size: 0.7em;
+    margin-left: 15px;
+    font-weight: 700;
+  }
+  #mainFooter .legal {
+    background: #470f08;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #470f08 0%, #68160c 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #470f08), color-stop(100%, #68160c));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #470f08 0%, #68160c 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #470f08 0%, #68160c 100%);
+    /* Opera11.10+ */
+    background: -ms-linear-gradient(top, #470f08 0%, #68160c 100%);
+    /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#470f08', endColorstr='#68160c', GradientType=0);
+    /* IE6-9 */
+    background: linear-gradient(top, #470f08 0%, #68160c 100%);
+    /* W3C */
+    border: 1px solid #470F08;
+  }
+  #pageName {
+    max-width: 100%;
+    overflow: hidden;
+    font-size: 14px;
+    padding: 0 0 3px 0;
+    margin: 0px;
+    margin-top: -3px;
+    background-color: #999;
+    background-repeat: repeat-x;
+    background-position: left top;
+    color: #fff;
+    height: 100%;
+  }
+  #content-head #pageName span {
+    font-size: 14px;
+    padding: 0px;
+    padding-right: 10px;
+    margin-left: 15px;
+    color: #fff;
+    vertical-align: top;
+    margin-top: 5px;
+  }
+  #pageName span {
+    font-weight: 700;
+    padding: 4px 0px 2px 5px;
+    /*padding:6px 0px 2px 35px * < MCM */
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 0.9em;
+    background-repeat: no-repeat;
+  }
+  .legal {
+    border-top: 1px solid #fff;
+  }
+  .blackberry #pageName {
+    margin-top: 1px;
+  }
+  /*Google Maps */
+  #MobileMap {
+    display: none;
+  }
+  #StaticMapContainer,
+  #MobileMapContainer {
+    height: 325px;
+    width: 92%;
+    margin: 15px 15px 15px 15px;
+  }
+  #map_canvas {
+    height: 100%;
+  }
+  #map_canvas_dir {
+    height: 100%;
+  }
+  #map_canvas img {
+    max-width: none;
+  }
+  #branchList {
+    font-size: 0.9em;
+  }
+  #branchList .inner {
+    border: solid 1px #ccc;
+    color: #5d5d5d;
+  }
+  #branchList .inner .alt {
+    background-color: #f5f4f4;
+  }
+  #branchList .inner a {
+    font-weight: 700;
+    color: #d81e05;
+  }
+  .hidden {
+    display: none;
+  }
+  .mapButtons {
+    font-size: 0.9em;
+  }
+  .ListView,
+  .MapView {
+    display: none;
+  }
+  .ListView.s-Current,
+  .MapView.s-Current {
+    display: block;
+  }
+  .mapItemRow {
+    padding: 8px;
+    background-color: #e1e1e1;
+    border-top: 1px solid #fff;
+    border-bottom: #959595;
+    font-size: 0.8em;
+    cursor: pointer;
+  }
+  .mapItemRow h4 {
+    padding: 0 0 5px 0;
+    margin: 0px;
+    font-size: 1.4em;
+  }
+  .listExpander {
+    display: none;
+  }
+  .s-CurrentRow .listExpander {
+    display: inherit;
+  }
+  #divMobileAlertBox {
+    text-align: center;
+    padding: 10px;
+  }
+  #divMobileAlertBox span {
+    display: block;
+    padding: 0px;
+    margin-top: 10px;
+    width: 105px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    background-image: none;
+    color: #fff;
+  }
+  .red-btn {
+    font-weight: 700;
+    font-size: 12px;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding-left: 7px;
+    padding-right: 0px;
+    background-image: url(/Images/red-btn.png);
+  }
+  #content .red-btn {
+    color: #fff;
+    text-shadow: -1px -1px 0 #900;
+  }
+  .red-btn span {
+    display: block;
+    padding: 5px 7px 5px 0px;
+    background-image: url(/Images/red-btn.png);
+    background-position: right top;
+    background-color: #fff;
+    color: #fff;
+  }
+  .red-btn:hover {
+    background-position: left -28px;
+  }
+  .red-btn:hover span {
+    background-position: right -28px;
+  }
+  .infoTiles .tiles {
+    background-color: #f0eee9;
+    list-style-type: none;
+    padding: 15px 10px 1px 10px;
+    margin: 10px -15px;
+    display: block;
+  }
+  .infoTiles .tiles .tile {
+    position: relative;
+    padding: 0px;
+    margin: 0 0 15px 0;
+    background-color: #fff;
+    padding: 15px;
+  }
+  .infoTiles .tiles .tile ul {
+    padding: 0px;
+    list-style-type: none;
+  }
+  .infoTiles .tiles .tile li {
+    padding: 4px 0 4px 20px;
+    background-image: url(/Images/checkmark-small.gif);
+    background-repeat: no-repeat;
+    background-position: left 6px;
+  }
+  .infoTiles .tiles .tile .collapsible {
+    overflow: hidden;
+    height: 0px;
+    cursor: pointer;
+  }
+  .infoTiles .tiles h2 {
+    padding: 0 25px 0 0;
+    margin: 0 0 0 0;
+    display: block;
+    font-weight: 100;
+    font-size: 18px;
+    background-image: url(/Images/mobileTheme/plusMinus.png);
+    background-repeat: no-repeat;
+    background-position: right 0;
+  }
+  .infoTiles .tiles article {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  #content .infoTiles .tiles li .button {
+    display: inline-block;
+    color: #fff;
+    background-color: #ee2f32;
+    border: 1px solid #e02226;
+    padding: 5px 10px;
+    margin-top: 15px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+  }
+  .infoTiles .tiles li.graphical {
+    padding: 0px;
+  }
+  .infoTiles .tiles li.graphical a {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .infoTiles .tiles li.graphical img {
+    width: 100%;
+  }
+  .infoTiles .tiles li.open h2 {
+    background-position: right -163px;
+  }
+  .infoTiles .tiles li.open .collapsible {
+    height: auto;
+  }
+  .infoTiles .tiles .quickFlipCta {
+    display: none;
+  }
+  .infoTiles .red-btn {
+    margin-top: 20px;
+  }
+  .infoTiles .tiles .grey {
+    background-color: transparent;
+    padding: 0px;
+  }
+  .staticInfoTiles {
+    font-size: 0.9em;
+  }
+  .staticInfoTiles header h1 {
+    font-size: 1.4em;
+    margin: 0;
+  }
+  .staticInfoTiles .tiles {
+    background-color: #f0eee9;
+    list-style-type: none;
+    padding: 10px 10px 1px 10px;
+    margin: 10px -15px;
+    display: block;
+  }
+  .staticInfoTiles .tiles li {
+    position: relative;
+    padding: 0px;
+    margin: 0 0 15px 0;
+    background-color: #fff;
+    padding: 15px;
+  }
+  .staticInfoTiles .tiles li .collapsible {
+    overflow: hidden;
+    height: 0px;
+    cursor: pointer;
+  }
+  .staticInfoTiles .tiles li ul {
+    padding-left: 20px;
+  }
+  #content .staticInfoTiles .tiles li li {
+    margin: 0px;
+    padding: 0;
+    list-style-type: disc;
+  }
+  .staticInfoTiles .tiles h2 {
+    padding: 0 25px 0 0;
+    margin: 0 0 0 0;
+    display: block;
+    font-weight: 100;
+    font-size: 18px;
+    background-image: url(/Images/mobileTheme/plusMinus.png);
+    background-repeat: no-repeat;
+    background-position: right 0;
+  }
+  .staticInfoTiles .tiles article {
+    margin-top: 10px;
+  }
+  #content .staticInfoTiles .tiles li .button {
+    display: inline-block;
+    color: #fff;
+    background-color: #ee2f32;
+    border: 1px solid #e02226;
+    padding: 5px 10px;
+    margin-top: 15px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+  }
+  .staticInfoTiles .tiles li.graphical {
+    padding: 0px;
+  }
+  .staticInfoTiles .tiles li.graphical a {
+    display: block;
+    width: 100%;
+  }
+  .staticInfoTiles .tiles li.graphical img {
+    width: 100%;
+  }
+  .staticInfoTiles .tiles li.open h2 {
+    background-position: right -163px;
+  }
+  .staticInfoTiles .tiles li.open .collapsible {
+    height: auto;
+  }
+  .staticInfoTiles .tiles li.grey {
+    background-color: transparent;
+    padding: 15px;
+  }
+  .staticInfoTiles .tiles li.grey h2 {
+    background-image: none;
+  }
+  #content .staticInfoTiles .tile ul {
+    padding-left: 20px;
+  }
+  #content .staticInfoTiles .tile li {
+    list-style-type: disc;
+  }
+  #content .staticInfoTiles h4 {
+    margin: 0;
+  }
+  .staticInfoTiles .red-btn {
+    margin-top: 15px;
+  }
+  .bigImage {
+    position: relative;
+    margin-bottom: 15px;
+    margin: 0px;
+  }
+  .bigImage img {
+    width: 100%;
+  }
+  .bigImage .bigImageOverlay {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    padding: 10px 10px;
+    width: 80%;
+    background-image: url(/Images/BigImageTextBG.png);
+    margin: 0;
+  }
+  #propertyDetails {
+    font-size: 12px;
+    position: relative;
+    margin: 0 -15px;
+  }
+  #propertyDetails p {
+    margin: 15px 0;
+  }
+  #propertyDetails header h2 {
+    font-size: 16px;
+    margin: 15px;
+  }
+  #propertyDetails h2 {
+    font-size: 16px;
+  }
+  #propertyDetails h4 {
+    font-size: 14px;
+    color: #666;
+    font-weight: 100;
+  }
+  #propertyDetails .featuredProperty {
+    padding: 15px;
+    background-color: #f6f6f6;
+  }
+  #propertyDetails .featuredProperty article img {
+    display: block;
+    width: 145px;
+    margin: 0 auto;
+  }
+  #propertyDetails .featuredProperty article ul {
+    margin: 15px 0 0 0;
+    display: block;
+    padding: 0;
+  }
+  #propertyDetails .featuredProperty article ul li {
+    display: block;
+    margin: 0;
+    padding: 5px;
+    border-bottom: 1px solid #e8e8e8;
+    font-weight: 700;
+    text-align: left;
+    list-style-type: none;
+  }
+  #propertyDetails .featuredProperty article ul li em {
+    font-style: normal;
+    text-align: right;
+    float: right;
+    font-weight: 100;
+    margin-right: 20px;
+  }
+  #propertyDetails #listingGallery {
+    margin: 15px;
+    overflow: hidden;
+  }
+  #propertyDetails #listingGallery .return {
+    display: block;
+    float: none;
+    clear: both;
+    padding-top: 10px;
+  }
+  #propertyDetails #listingGallery a {
+    display: inline-block;
+    margin: 15px 25px 15px 0;
+    cursor: pointer;
+    float: left;
+  }
+  #propertyDetails #listingGallery header {
+    border-bottom: 1px solid #bcbcbc;
+  }
+  #propertyDetails #listingGallery header h2 {
+    margin-left: 0;
+    font-weight: 100;
+  }
+  #propertyListings {
+    font-size: 12px;
+    margin: 0 -15px;
+  }
+  #propertyListings h2 {
+    margin: 15px;
+  }
+  #propertyListings input[type=submit] {
+    margin: 0 15px;
+    background-image: url(/Images/buttonBG.jpg);
+    border: none;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    width: 80px;
+    height: 32px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  #propertyListings input[type=submit]:hover {
+    background-position: bottom center;
+  }
+  #propertyListings a span {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding: 7px 15px;
+  }
+  #propertyListings #propertySearch {
+    background-color: #f6f6f6;
+    margin-bottom: 15px;
+  }
+  #propertyListings #propertySearch article {
+    padding: 15px;
+  }
+  #propertyListings #propertySearch label {
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+  }
+  #propertyListings #propertySearch label span {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  #propertyListings #propertySearch label select {
+    width: 100%;
+    height: 27px;
+  }
+  #propertyListings #propertyResults {
+    margin: 15px 0;
+  }
+  #propertyListings #propertyResults header {
+    margin: 0 15px;
+  }
+  #propertyListings #propertyResults header h2 {
+    margin-left: 0;
+  }
+  #propertyListings #propertyResults aside {
+    margin: 15px;
+  }
+  #propertyListings #propertyResults aside a {
+    color: #D81E05;
+    background-image: none;
+    font-size: 12px;
+    margin: 0;
+    height: auto;
+  }
+  #propertyListings #propertyResults aside em {
+    font-weight: 700;
+    font-style: normal;
+  }
+  #propertyListings #propertyResults aside p {
+    padding-top: 5px;
+  }
+  #propertyListings #propertyResults header {
+    overflow: hidden;
+    border-bottom: 1px solid #bcbcbc;
+  }
+  #propertyListings #propertyResults header h2 {
+    float: left;
+    font-size: 16px;
+    font-weight: 100;
+  }
+  #propertyListings #propertyResults header a {
+    float: right;
+    color: #666;
+    background-image: none;
+    width: auto;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 0;
+  }
+  #propertyListings #propertyResults header a:hover {
+    color: #D81E05;
+    text-decoration: none;
+  }
+  #propertyListings #propertyResults article {
+    margin: 0px 15px;
+  }
+  #propertyListings #propertyResults article img {
+    display: block;
+    margin: 15px auto;
+    width: 165px;
+  }
+  #propertyListings #propertyResults article ul li {
+    padding: 5px;
+    border-bottom: 1px solid #e8e8e8;
+    font-weight: 700;
+    text-align: left;
+  }
+  #propertyListings #propertyResults article ul li em {
+    font-style: normal;
+    text-align: right;
+    font-weight: 100;
+    float: right;
+  }
+  #propertyListings #propertyResults p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #propertyListings #propertyResults .paging {
+    text-align: center;
+    margin-top: 20px;
+  }
+  #propertySlider {
+    display: none;
+  }
+  #MobileSlideShow {
+    position: fixed;
+    display: none;
+    top: 0px;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    overflow: auto;
+    overflow: hidden;
+  }
+  #MobileSlideShow #Prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-left: 5px;
+    z-index: 60;
+    background-image: url(/Images/mobileTheme/MobileArrows.png);
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+  #MobileSlideShow #Next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-right: 5px;
+    z-index: 60;
+    background-image: url(/Images/mobileTheme/MobileArrows.png);
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+  #MobileSlideShow header {
+    width: 100%;
+    height: 40px;
+    background-color: #2f2a2a;
+    overflow: hidden;
+  }
+  #MobileSlideShow header .close {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    background-image: url(/Images/mobileTheme/CloseBtn.png);
+    background-repeat: no-repeat;
+    float: right;
+    cursor: pointer;
+    background-position: left center;
+  }
+  #MobileSlideShow header .close:hover {
+    background-position: right center;
+  }
+  #MobileSlideShow .slides ul {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    left: 0px;
+    height: 171px;
+  }
+  #MobileSlideShow .slides ul li {
+    float: left;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+  }
+  #MobileSlideShow .slides ul li:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  #MobileSlideShow .slides img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+  }
+  #MobileSlideShow.hide {
+    display: none;
+  }
+  .Tabbed {
+    padding-top: 20px;
+    margin: 0 -15px;
+  }
+  .Tabbed ul,
+  .Tabbed li {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+  }
+  .Tabbed li.Selected {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+  }
+  .Tabbed .Tabs li {
+    background-color: #F1F1F1;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    border: 1px solid #f1f1f1;
+    border-bottom-color: #e4e4e4;
+    margin: 0 0 -1px 0;
+    position: relative;
+  }
+  .Tabbed .Tabs a {
+    padding: 0px 10px;
+    color: #D81E05;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    line-height: 37px;
+    height: 37px;
+    font-size: 14px;
+  }
+  .Tabbed .Tabs li.Selected {
+    background-color: #FFF;
+    border: 1px solid #e4e4e4;
+    border-bottom-color: #FFF;
+  }
+  .Tabbed .Tabs li.Selected a {
+    color: #666666;
+    font-weight: bold;
+  }
+  .Tabbed .TabsContent li {
+    background-color: #F9F9F7;
+    display: none;
+    border: 1px solid #e4e4e4;
+  }
+  .Tabbed .TabsContent li.Selected {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+  }
+  .ratesToApply {
+    border: 4px solid #aeaeae;
+    border-left: none;
+    border-right: none;
+    overflow: hidden;
+    margin: 20px 0px;
+  }
+  #content .ratesToApply header {
+    padding: 10px 0 0 0;
+  }
+  #content .ratesToApply ul {
+    padding: 0px;
+    margin: 0px;
+    font-size: 0.9em;
+    color: #666;
+  }
+  #content .ratesToApply li {
+    margin: 0px;
+    padding: 10px 0 10px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  #content .ratesToApply li.first {
+    border-bottom: 1px solid #ccc;
+  }
+  #content .ratesToApply p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.9em;
+    float: left;
+    width: 51%;
+  }
+  #content .ratesToApply a {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.9em;
+    display: block;
+    right: 0px;
+    top: 50%;
+    float: right;
+    text-align: right;
+    width: 47%;
+  }
+  #content .ratesToApply h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2em;
+  }
+  #content .ratesToApply h4 {
+    margin: 0px;
+    padding: 0px;
+    color: #666;
+  }
+  .atAGlance {
+    font-size: 0.95em;
+  }
+  #content .atAGlance ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0 0 0 0;
+    overflow: hidden;
+  }
+  #content .atAGlance li {
+    padding: 10px 0px;
+    margin: 0px;
+    background-image: none;
+    border-bottom: 1px solid #ccc;
+    font-weight: 700;
+    position: relative;
+    min-height: 50px;
+  }
+  #content .atAGlance li.last {
+    border-right: none;
+  }
+  #content .atAGlance em {
+    font-size: 3em;
+    font-style: normal;
+    letter-spacing: -1px;
+    display: inline-block;
+    *display: inline;
+  }
+  #content .atAGlance span {
+    display: inline-block;
+    padding-left: 6px;
+    vertical-align: top;
+  }
+  #content .atAGlance sup {
+    height: 0;
+    font-size: 0.6em;
+    vertical-align: top;
+    _vertical-align: top;
+    position: relative;
+  }
+  .linkSections {
+    margin: 0 -15px;
+  }
+  .linkSections section {
+    background-color: #eeede8;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0;
+  }
+  .linkSections hr {
+    display: none;
+  }
+  #content .linkSections ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+  }
+  #content .linkSections li {
+    padding: 10px 0 10px 10px;
+    background-color: #fff;
+    margin: 10px 0 0 0;
+    font-size: 16px;
+    background-image: url(/Images/sectionLinkArrow.jpg);
+    background-repeat: no-repeat;
+    background-position: right 9px;
+  }
+  #content .linkSections h2 {
+    font-size: 16px;
+    font-weight: 100;
+    margin: 0px;
+    background-color: #d5d6d6;
+    padding: 10px 40px 10px 10px;
+    background-image: url(/Images/plusMinusLinkSections.png);
+    background-repeat: no-repeat;
+    background-position: right 2px;
+  }
+  #content .linkSections a {
+    color: #515252;
+    display: block;
+    padding-right: 35px;
+  }
+  #content .linkSections section.selected ul {
+    display: block;
+  }
+  #content .linkSections section.selected h2 {
+    background-position: right -248px;
+  }
+  /* Kiosk List*/
+  .kioskListWrapper {
+    margin: 0px -15px;
+    padding: 0px 6px 0px 15px;
+  }
+  .kioskListWrapper label {
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  .kioskListWrapper select {
+    width: 100%;
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .kioskListWrapper header {
+    color: white;
+    padding: 4px 0 4px 0;
+    margin: 10px 0 10px 0;
+  }
+  .kioskListWrapper header span.establishment {
+    display: none;
+  }
+  .kioskListWrapper header span.directory {
+    display: none;
+  }
+  .kioskListWrapper ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: -10px;
+  }
+  .kioskListWrapper ul li {
+    padding: 8px 9px 8px 0;
+    overflow: hidden;
+  }
+  .kioskListWrapper ul li span.plusMinus {
+    display: block;
+    position: absolute;
+    width: 20px;
+    background-image: url(/Images/plusMinus.png);
+    height: 20px;
+    right: 10px;
+    background-repeat: no-repeat;
+  }
+  .plus {
+    background-position: 0px 0px;
+  }
+  .minus {
+    background-position: 0px -163px;
+  }
+  .kioskListWrapper ul li.odd {
+    background-color: #F4F4F4;
+  }
+  .kioskListWrapper ul li img {
+    width: 60px;
+    vertical-align: middle;
+  }
+  .kioskListWrapper ul li span.kioskItemEstablishment {
+    display: inline-block;
+    margin-left: 10px;
+    width: 201px;
+  }
+  #content .kioskListWrapper ul li span.kioskItemEstablishment a {
+    text-decoration: none;
+    color: #666;
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  .kioskListWrapper ul li .kioskItemDirectory {
+    display: block;
+    display: none;
+    padding-left: 10px;
+  }
+  .kioskListWrapper ul li div.kioskItemDirectory {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .kioskListWrapper ul li ul {
+    display: none;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+  #content .kioskListWrapper ul li ul li {
+    padding: 3px 3px 1px 10px;
+    background-image: url(/Images/checkSymbol.png);
+    background-repeat: no-repeat;
+    background-position-y: 8px;
+    background-position-x: 0px;
+    padding-left: 10px;
+  }
+  #content .kioskListWrapper ul li ul li a {
+    text-decoration: none;
+    color: #666;
+  }
+  /*Kiosk Details*/
+  .kioskDetailsWrapper {
+    position: relative;
+  }
+  .kioskDetailsWrapper h2 {
+    float: left;
+    font-size: 1em;
+    margin: 0 0 5px 5px;
+    width: 185px;
+    padding: 5px 0 0 5px;
+  }
+  .kioskDetailsWrapper h3 {
+    background-color: #EEE;
+    float: right;
+    padding: 10px 15px 10px 15px;
+    font-size: 0.8em;
+    margin: -60px -25px 0 0;
+    position: relative;
+  }
+  .kioskDetailsWrapper article {
+    clear: both;
+    border: 10px solid #EEE;
+    padding: 15px 15px 20px 15px;
+    margin: 0 0 10px 0;
+  }
+  .kioskDetailsWrapper article header {
+    border-bottom: 1px solid #EEE;
+    padding-bottom: 10px;
+    overflow: hidden;
+  }
+  .kioskDetailsWrapper article header div {
+    text-align: left;
+  }
+  .kioskDetailsWrapper article h4 {
+    margin: 15px 0 0 0;
+  }
+  #content .kioskDetailsWrapper article h3 a {
+    color: #666;
+  }
+  .kioskDetailsWrapper article h4 {
+    color: #666;
+  }
+  .kioskDetailsWrapper article div.kioskContent {
+    margin: 0 0 0 17px;
+    padding: 0;
+  }
+  .kioskDetailsWrapper article div.kioskContent p {
+    margin: 3px 0 0 0;
+  }
+  .kioskDetailsWrapper article ul {
+    list-style-type: none;
+  }
+  .kioskDetailsWrapper article ul li {
+    padding: 2px 0 0 3px;
+    background-image: url(/Images/checkSymbol.png);
+    background-repeat: no-repeat;
+    background-position-y: 8px;
+    background-position-x: 0px;
+    padding-left: 10px;
+  }
+  .TaxServiceDetailsWrapper {
+    margin-top: 50px;
+  }
+  .cal {
+    position: relative;
+  }
+  .cal header {
+    overflow: hidden;
+    text-align: center;
+    background-color: #c9c9c9;
+    border: 1px solid #c9c9c9;
+    padding: 15px;
+    color: #fff;
+  }
+  .cal header h2 {
+    margin: 0px;
+  }
+  .cal header a {
+    background-image: url(/Images/calBTN.jpg);
+    text-indent: -900px;
+    overflow: hidden;
+    display: block;
+    width: 26px;
+    height: 26px;
+    top: 11px;
+  }
+  .cal .next {
+    position: absolute;
+    right: 10px;
+    background-position: right top;
+  }
+  .cal .prev {
+    position: absolute;
+    left: 10px;
+    background-position: left top;
+  }
+  .cal .next:hover {
+    background-position: right bottom;
+  }
+  .cal .prev:hover {
+    background-position: left bottom;
+  }
+  .cal table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 5px;
+  }
+  .cal table .week {
+    background-color: #a6a6a6;
+  }
+  .cal table .week th {
+    color: #fff;
+    font-weight: 100;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  .cal table tr {
+    text-align: center;
+  }
+  .cal table tr td {
+    border: 1px solid #dcdcdc;
+    color: #28363d;
+    padding: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center 25px;
+    font-size: 11px;
+  }
+  .cal table tr td.loaded {
+    background-image: url(/Images/Mobile/dots.png);
+  }
+  .cal table tr td.selected {
+    color: #fff;
+    background-color: #28363d;
+    background-position: center -13px;
+  }
+  .cal table .days {
+    background-color: #f5f5f5;
+  }
+  .cal table tr td.otherMonth {
+    color: #a9b0b6;
+    background-position: center -68px;
+  }
+  .youtubeVLB {
+    background-color: #F1F0EB;
+    padding: 17px 5px 10px 5px;
+    text-align: center;
+    margin: 0 -10px 0 -10px;
+    border: 10px solid #D5D7D6;
+  }
+  .youtubeVLB .videoTitle {
+    display: block;
+    color: #383735;
+    text-decoration: underline;
+    font-family: 'Scotiabank';
+  }
+  .youtubeVLB .videoSubtitle {
+    display: block;
+    color: #ED2D23;
+    text-transform: uppercase;
+    font-family: 'ScotiabankBold';
+    font-weight: 100;
+    margin: 7px;
+  }
+  /*State
+  **************************************/
+  .show {
+    display: inherit !important;
+  }
+  .hide {
+    display: none !important;
+  }
+  /*Fondos*/
+  h1.fondosNavLocation {
+    color: white;
+    margin: 0;
+    padding: 5px 2px 5px 14px;
+  }
+  img.fondosLogo {
+    margin: 10px 14px 5px 14px;
+  }
+  div.fondosMblHeader {
+    border-bottom: 1px solid #DADADA;
+  }
+  h1.position1 {
+    background-color: #d8005c;
+    margin-top: -2px;
+  }
+  h1.position2 {
+    background-color: #19669f;
+    margin-top: -2px;
+  }
+  h1.position3 {
+    background-color: #0082b3;
+    margin-top: -2px;
+  }
+  h1.position4 {
+    background-color: #9c9000;
+    margin-top: -2px;
+  }
+  h1.position5 {
+    background-color: #d68f00;
+    margin-top: -2px;
+  }
+  h1.position6 {
+    background-color: #9070ae;
+    margin-top: -2px;
+  }
+  h1.position7 {
+    background-color: #a82e35;
+    margin-top: -2px;
+  }
+  h1.position8 {
+    background-color: #e1211b;
+    margin-top: -2px;
+  }
+  /***********************Latinlingua Requested Additions***************************/
+  /*********************************************************************************/
+  /*********************************************************************************/
+  #content-body ul.spaced li {
+    margin-bottom: 1em;
+  }
+  #content-body .float-left {
+    margin-right: 1em;
+    margin-bottom: 1em;
+    float: left;
+  }
+  #content-body .float-right {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    float: right;
+  }
+  #content-body .details {
+    margin-top: 2em;
+  }
+  .productDetailsTop {
+    list-style-type: none;
+    color: #666;
+    padding-left: 25px;
+    margin: 5px 0;
+  }
+  .productDetailsTop li {
+    padding: 4px 0 4px 25px;
+    background-image: url(/Images/bg-circle-check.gif);
+    background-repeat: no-repeat;
+    background-position: 0px 4px;
+    font-size: 0.9em;
+  }
+  #content .contactTile {
+    list-style-type: none;
+    padding: 0 0 15px 0;
+    margin: 0 0 0 0;
+    overflow: hidden;
+    border-bottom: 2px solid #e3e3e3;
+    margin-top: 5px;
+  }
+  .contactTile li {
+    margin: 10px 10px 0 10px;
+    padding: 10px 10px 20px 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-bottom: 2px solid #cccccc;
+    border-right: 2px solid #cccccc;
+  }
+  .contactTile .title {
+    font-size: 25px;
+    font-weight: 100;
+    padding: 0px;
+    margin: 0px;
+    color: #333;
+  }
+  .contactTile .article {
+    padding-left: 35px;
+    position: relative;
+    font-size: 0.9em;
+    margin-top: 10px;
+  }
+  .contactTile img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: block;
+    border: none;
+  }
+  /* Generic tables */
+  #content table.default {
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-top: 3px solid #adada7;
+    padding: 0;
+    border-collapse: collapse;
+    margin-top: 1.5em;
+    width: 100%;
+    margin-bottom: 1em;
+    background-color: #FFF;
+  }
+  #content table.default tbody {
+    padding: 0;
+  }
+  #content table.default tr.odd th,
+  #content table.default tr.odd td {
+    background-color: #f5f5f5;
+  }
+  #content table.default th {
+    font-size: 1em;
+    text-align: left;
+    padding: 0.2em;
+    padding-left: 0.5em;
+    border-width: 0 1px;
+    border-style: solid;
+    border-color: #ccc;
+    border-bottom: 3px solid #ccc;
+  }
+  #content table.default td {
+    padding: 0.2em;
+    border-width: 0 1px;
+    border-style: solid;
+    border-color: #ccc;
+  }
+  #content table.default td.headerRow {
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-top: 3px solid #ccc;
+  }
+  #content table.default a {
+    font-weight: bold;
+  }
+  #content .comisiones table.default {
+    font-size: 0.7em;
+  }
+  /*Lightbox*/
+  #lightBox {
+    display: none;
+    z-index: 999;
+    position: absolute;
+    overflow: hidden;
+    width: 90%;
+    padding: 0px 5%;
+    height: 100%;
+    background-image: url(/Images/LightBoxBG.png);
+    top: 0;
+  }
+  #lightBox.show {
+    display: block;
+  }
+  #innerLightbox {
+    position: absolute;
+  }
+  #lightBox .button {
+    position: absolute;
+    right: 10px;
+    top: 32px;
+  }
+  #lightBox .wrapper {
+    border: 1px solid #e8e7df;
+    position: relative;
+    margin: 50px auto 0px auto;
+    padding: 20px;
+    background-color: #fff;
+    -moz-box-shadow: 1px 1px 9px 1px #000;
+    -webkit-box-shadow: 1px 1px 9px 1px #000;
+    box-shadow: 1px 1px 9px 1px #000;
+  }
+  #lightBox #lbContent {
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  #lightBox .wrapper .close {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background-image: url(/Images/mobileTheme/mobileX2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    z-index: 9999;
+  }
+  #lightBox #ddlCountryMob {
+    margin-top: 15px;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 3px;
+    border-color: #c4c4c4;
+  }
+  #lightBox #bankingLinksContent {
+    margin: 35px 0;
+    text-align: center;
+  }
+  #lightBox #bankingLinksContent > p {
+    width: 190px;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  #lightBox #bankingLinksContent > a {
+    height: 45px;
+    margin: 20px auto 25px auto;
+    font-size: 0.001em;
+    line-height: 45px;
+    display: block;
+  }
+  #lightBox #bankingLinksContent > a img {
+    vertical-align: middle;
+  }
+  #lightBox #ddlBankingLinksMob {
+    margin-top: 15px;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 3px;
+    border-color: #c4c4c4;
+  }
+  #lightBox.search .wrapper {
+    padding-top: 35px;
+  }
+  #lightBox #searchButton {
+    background-image: url(/Images/mobileTheme/mobileSearchBTN.jpg);
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 34px;
+    display: block;
+    float: right;
+  }
+  #lightBox #searchInputText {
+    float: left;
+    background-color: #f4f4f4;
+    border: 1px solid #c4c4c4;
+    margin-top: 3px;
+    padding: 3px;
+    width: 97%;
+  }
+  #lightBox h4 {
+    color: #666666;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #lightBox .textbox {
+    width: 79%;
+    display: inline-block;
+  }
+  #lightBox .searchBtn {
+    width: 14%;
+    display: inline-block;
+    margin-left: 15px;
+  }
+  /*404 Error page*/
+  .error404 {
+    padding: 20px;
+  }
+  .error404 ul {
+    list-style-image: url("//sb-agility-ugc-bfn.s3.amazonaws.com/Styles/img/arrow.gif");
+    margin-left: 0px;
+    padding-left: 15px;
+  }
+  .error404 li {
+    padding: 5px 0;
+  }
+  .error404 #pageName {
+    margin: -23px -20px 0 -20px;
+    padding: 4px 20px;
+  }
+  /*******************************************************************************************************************************************************************************
+  GANA GANA 2015
+  ********************************************************************************************************************************************************************************/
+  #mainContent-largeImage .ganaGanaNav {
+    list-style: none;
+    margin: 0px;
+    padding: 0 0 5px 0;
+    font-size: 0px;
+  }
+  .amber .ganaGanaNav {
+    border-bottom: 5px solid #d18316;
+  }
+  .pear .ganaGanaNav {
+    border-bottom: 5px solid #8d8b00;
+  }
+  .amethyst .ganaGanaNav {
+    border-bottom: 5px solid #9050a8;
+  }
+  .raspberry .ganaGanaNav {
+    border-bottom: 5px solid #e20177;
+  }
+  .sapphire .ganaGanaNav {
+    border-bottom: 5px solid #003479;
+  }
+  .ganaGanaNav li {
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px 0 10px 0;
+    max-width: 270px;
+    text-align: center;
+  }
+  .ganaGanaNav li.amber {
+    background: #d18316;
+  }
+  .ganaGanaNav li.amber:hover {
+    background: rgba(209, 131, 22, 0.75);
+  }
+  .ganaGanaNav li.pear {
+    background: #8d8b00;
+  }
+  .ganaGanaNav li.pear:hover {
+    background: rgba(141, 139, 0, 0.75);
+  }
+  .ganaGanaNav li.amethyst {
+    background: #9050a8;
+  }
+  .ganaGanaNav li.amethyst:hover {
+    background: rgba(144, 80, 168, 0.75);
+  }
+  .ganaGanaNav li.raspberry {
+    background: #e20177;
+  }
+  .ganaGanaNav li.raspberry:hover {
+    background: rgba(226, 1, 119, 0.75);
+  }
+  .ganaGanaNav li.sapphire {
+    background: #003479;
+  }
+  .ganaGanaNav li.sapphire:hover {
+    background: rgba(0, 52, 121, 0.75);
+  }
+  .ganaGanaNav li a {
+    color: #fff !important;
+    padding: 12px 35px;
+    font-size: 13px;
+    font-weight: 700;
+    display: block;
+  }
+  .ganaGanaNav li a:hover {
+    text-decoration: none;
+  }
+  .ganaGanaContent {
+    padding: 10px;
+  }
+  .ganaGanaContent h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+  }
+  .ganaGanaContent em {
+    font-style: normal;
+  }
+  .ganaGanaContent small {
+    display: block;
+    margin: 5px 0;
+  }
+  .ganaGanaContent .ganaGanaCTA {
+    margin: 20px auto;
+    text-align: center;
+  }
+  .ganaGanaContent .ganaGanaCTA img {
+    margin: 0 auto;
+    display: block;
+  }
+  .ganaGanaContent .bonusList img {
+    display: block;
+    margin: 0 auto;
+  }
+  .ganaGanaList {
+    margin: 20px 0 !important;
+    padding: 20px !important;
+    background: #f1f1f1;
+    border-radius: 10px 0;
+  }
+  .ganaGanaList li {
+    list-style: none;
+    display: block;
+    margin-right: 15px;
+    text-indent: -5px;
+  }
+  .ganaGanaList strong {
+    list-style: none;
+    display: block;
+    margin: 0 0 5px 0;
+  }
+  .ganaGanaList li:before + strong {
+    content: none;
+  }
+  .ganaGanaList li:before {
+    content: '\002022';
+    font-size: 18px;
+    padding-right: 5px;
+  }
+  .ganaGanaLandingCTA {
+    text-align: center;
+    padding: 10px;
+  }
+  .ganaGanaLandingCTA img {
+    display: block;
+    margin: 0 auto;
+  }
+  .amber .ganaGanaContent h1,
+  .amber .ganaGanaContent h3,
+  .amber .ganaGanaContent strong,
+  .amber .ganaGanaContent b,
+  .amber .ganaGanaList li:before,
+  .amber #content .ganaGanaContent a {
+    color: #d18316;
+  }
+  .pear .ganaGanaContent h1,
+  .pear .ganaGanaContent h3,
+  .pear .ganaGanaContent strong,
+  .pear .ganaGanaContent b,
+  .pear .ganaGanaList li:before,
+  .pear #content .ganaGanaContent a {
+    color: #8d8b00;
+  }
+  .amethyst .ganaGanaContent h1,
+  .amethyst .ganaGanaContent h3,
+  .amethyst .ganaGanaContent strong,
+  .amethyst .ganaGanaContent b,
+  .amethyst .ganaGanaList li:before,
+  .amethyst #content .ganaGanaContent a {
+    color: #9050a8;
+  }
+  .raspberry .ganaGanaContent h1,
+  .raspberry .ganaGanaContent h3,
+  .raspberry .ganaGanaContent strong,
+  .raspberry .ganaGanaContent b,
+  .raspberry .ganaGanaList li:before,
+  .raspberry #content .ganaGanaContent a {
+    color: #e20177;
+  }
+  .sapphire .ganaGanaContent h1,
+  .sapphire .ganaGanaContent h3,
+  .sapphire .ganaGanaContent strong,
+  .sapphire .ganaGanaContent b,
+  .sapphire .ganaGanaList li:before,
+  .sapphire #content .ganaGanaContent a {
+    color: #003479;
+  }
+  /*****************************************************************************
+      Car Loan Calculator
+      **************************************************************************/
+  #carLoanInfo #contactForm {
+    overflow: visible;
+  }
+  .carLoanCalculatorModule {
+    margin: -45px -45px -45px -45px;
+    padding: 0 20px 20px 20px;
+    background-color: #FBFBFB;
+    overflow: hidden;
+  }
+  .carLoanCalculatorModule table {
+    width: 100%;
+    text-align: center;
+  }
+  .carLoanCalculatorModule .splitcollapsible {
+    border: solid 1px black;
+  }
+  .carLoanCalculatorModule .splitcollapsible .collapsible,
+  .carLoanCalculatorModule .splitcollapsible button {
+    display: none;
+  }
+  .carLoanCalculatorModule .splitcollapsible.show .collapsible,
+  .carLoanCalculatorModule .splitcollapsible.show button {
+    display: block;
+  }
+  #carLoanInfo {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #carLoanInfo .button {
+    position: relative;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  #carLoanInfo .button span {
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    background-color: #D81E05;
+    border: none;
+  }
+  #carLoanInfo h2 {
+    padding: 22px 28px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    /*background-color: rgba(0,0,0,0.7);*/
+    width: 100%;
+    margin-left: -20px;
+    margin-top: 0;
+  }
+  #carLoanInfo h3 {
+    margin: 15px 0 15px 0;
+    text-align: center;
+  }
+  #carLoanInfo h3 span {
+    display: inline-block;
+    min-height: 48px;
+    padding: 22px 0 0 75px;
+    color: #D81E05;
+    font-size: 18px;
+    text-align: left;
+    background: url("//scotiabankfiles.azureedge.net/scotia-bank-mexico/images/CarLoanCalculator/odometer-mobile.png") no-repeat left 5px;
+  }
+  #carLoanInfo ul {
+    position: relative;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    color: #484949;
+    font-size: 14px;
+  }
+  #carLoanInfo li {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    height: 100px;
+    margin: -10px auto 0 auto;
+    vertical-align: top;
+    background: url("//scotiabankfiles.azureedge.net/scotia-bank-mexico/images/CarLoanCalculator/m_scale_grey.png") no-repeat 64px 64%;
+  }
+  #carLoanInfo li[data-field=terms] {
+    padding-bottom: 40px;
+    background: none;
+    width: 102%;
+    max-width: 280px;
+    margin: 0 auto 0 auto;
+    float: none;
+    height: 120px;
+    overflow: hidden;
+  }
+  #carLoanInfo li input {
+    float: right;
+    display: inline;
+    width: 75px;
+    height: 30px;
+    color: #535253;
+    margin: 4px 0 0 0;
+    padding: 0 6px;
+    font-weight: bold;
+    background-color: #fff;
+    border: 1px solid #D81E05;
+    font-size: 12px;
+    box-sizing: border-box;
+    z-index: 100;
+    border-radius: 0;
+  }
+  #carLoanInfo li div.terms input[type=text] {
+    /*border: 1px solid #8C8A8B; position: absolute; margin: 0; top: 0; right: 0px; z-index: 10; height: 100%; width: 82px;*/
+    -webkit-appearance: none;
+    text-align: center;
+    /*border-radius: 0;*/
+  }
+  #carLoanInfo li input.selected + input[type=text] {
+    border-color: #D81E05;
+  }
+  #carLoanInfo li input[type=button] {
+    float: none;
+    display: inline-block;
+    width: 54px;
+    height: 100%;
+    /*margin: 0;*/
+    padding: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #7F7F7F;
+    border: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+  }
+  #carLoanInfo li input.selected {
+    background-color: #D81E05;
+  }
+  #carLoanInfo li div.terms > div {
+    float: left;
+    clear: both;
+    /*line-height: 10px;*/
+    width: 48%;
+    height: 27px;
+    position: relative;
+    margin-top: 1.7%;
+    /*margin-right: 2%; margin-bottom: -8px;*/
+    max-width: 134px;
+  }
+  #carLoanInfo li div.terms > div:nth-of-type(1n+4) {
+    float: right;
+    top: -102px;
+  }
+  /*denis terms*/
+  #carLoanInfo div.terms {
+    margin-top: 10px;
+  }
+  #carLoanInfo div.terms .termButton {
+    font-size: 0;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    border-color: #cecece;
+    background-image: url("//scotiabankfiles.azureedge.net/scotia-bank-mexico/images/CarLoanCalculator/bg-grey-btn.gif");
+    background-repeat: repeat-x;
+    background-position: left top;
+    box-shadow: 0 1px 1px #666;
+    color: #D82007;
+  }
+  #carLoanInfo div.terms .termButton.selected {
+    background-image: none;
+    background-color: #D82007;
+    border-color: #D82007;
+    color: #fff;
+  }
+  #carLoanInfo div.terms .termButton.selected input:last-child {
+    border-color: #990000;
+  }
+  #carLoanInfo div.terms input {
+    display: inline-block;
+    font-size: 12px;
+    color: inherit;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+  }
+  #carLoanInfo div.terms input:first-child {
+    font-weight: bold;
+    width: 47%;
+  }
+  #carLoanInfo div.terms input:last-child {
+    border-left: 1px solid;
+    border-color: #cecece;
+    width: 53%;
+  }
+  #carLoanInfo li div a {
+    cursor: pointer;
+    display: block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -3000px;
+    bottom: 12px;
+    background: url("/images/actionIcon.png") no-repeat left -65px;
+    transition: left 0.2s ease-out;
+  }
+  #carLoanInfo li.refresh div a {
+    left: 5px;
+  }
+  #carLoanInfo li .range {
+    width: 128px;
+    height: 8px;
+    position: relative;
+    top: 8px;
+    right: 0;
+    margin: 10px 0 10px 32px;
+    background-color: #7F7F7F;
+    border-right: 32px solid #7F7F7F;
+    border-radius: 10px;
+    overflow: visible;
+  }
+  #carLoanInfo li .range div {
+    float: none;
+    display: inline-block;
+    width: auto;
+    height: 25px;
+    padding-left: 32px;
+    position: relative;
+    top: -8px;
+    left: -32px;
+    background: #D82007;
+    cursor: pointer;
+    z-index: 1;
+  }
+  #carLoanInfo li .range div span {
+    display: block;
+    width: 64px;
+    height: 100%;
+    margin-left: -32px;
+    background: url("//scotiabankfiles.azureedge.net/scotia-bank-mexico/images/CarLoanCalculator/slider_red.png") no-repeat right top;
+    background-size: contain;
+  }
+  #carLoanInfo .splitcollapsible {
+    margin-bottom: 12px;
+    margin: 30px -20px;
+    padding: 0 20px;
+    border: none;
+    color: #fff;
+    background: #000;
+  }
+  #carLoanInfo .splitcollapsible.final {
+    clear: both;
+  }
+  #carLoanInfo .splitcollapsible .collapsible {
+    padding-bottom: 10px;
+  }
+  #carLoanInfo .splitcollapsible .finalResult {
+    position: relative;
+    margin: 0 -15px;
+    border: 2px solid #000;
+    overflow: hidden;
+  }
+  #carLoanInfo .splitcollapsible table {
+    border-collapse: collapse;
+  }
+  #carLoanInfo .splitcollapsible th {
+    font-weight: normal;
+    padding: 10px 0;
+    font-size: 0.9em;
+  }
+  #carLoanInfo .splitcollapsible td {
+    border-right: 1px solid #fff;
+    font-size: 0.8em;
+  }
+  #carLoanInfo .final div {
+    padding: 0;
+    text-align: right;
+  }
+  #carLoanInfo .final .button {
+    display: none;
+    margin: 15px 0 -10px 0;
+    line-height: 18px;
+    font-size: 0.8em;
+  }
+  #carLoanInfo .final.show .button {
+    display: inline-block;
+  }
+  #carLoanInfo .insurance {
+    margin: 30px -20px;
+    background: #7F7F7F;
+  }
+  #carLoanInfo .insurance ul {
+    padding-top: 20px;
+  }
+  #carLoanInfo .insurance span {
+    color: #fff;
+  }
+  #carLoanInfo .insurance span.tip {
+    color: #fff;
+  }
+  #carLoanInfo .insurance span.tip > span.show {
+    top: 28px;
+    left: -9px;
+    width: 114px;
+  }
+  #carLoanInfo .insurance li {
+    background-image: url("//scotiabankfiles.azureedge.net/scotia-bank-mexico/images/CarLoanCalculator/m_scale_white.png");
+    background-repeat: no-repeat;
+    background-position: 61px 67px;
+    margin-left: -4px;
+    width: 104%;
+    margin: 0 auto 0 auto;
+    max-width: 280px;
+  }
+  #carLoanInfo .insurance li input {
+    margin-right: 4px;
+  }
+  #carLoanInfo .insurance li .range {
+    background-color: #fff;
+    border-color: #fff;
+    margin-left: 28px;
+  }
+  #carLoanInfo .final .mobileDisclaimer {
+    display: none;
+    font-size: 10px;
+  }
+  #carLoanInfo .final.show .mobileDisclaimer {
+    display: block;
+    font-size: 10px;
+  }
+  #carLoanInfo .splitcollapsible h4 {
+    position: relative;
+    margin: 0 -8px;
+    padding: 10px 30px 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+  }
+  #carLoanInfo .splitcollapsible ul {
+    padding: 0;
+    color: #fff;
+    background: none;
+  }
+  #carLoanInfo .results {
+    width: 100%;
+  }
+  #carLoanInfo .results .totals {
+    padding: 5px 0 40px 0;
+    font-size: 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  #carLoanInfo .results .totals.summary {
+    background-color: #BCBCBC !important;
+  }
+  #carLoanInfo .results .totals h4 {
+    color: #535253;
+    font-size: 24px;
+    font-weight: bold;
+    height: 5px;
+  }
+  #carLoanInfo .results .totals h4:nth-of-type(1) {
+    margin-top: 10px;
+  }
+  #carLoanInfo .results .totals b {
+    display: block;
+    padding-bottom: 20px;
+    color: #D81E05;
+    font-size: 40px;
+    height: 30px;
+    margin-bottom: -45px;
+  }
+  #carLoanInfo .results .totals b:nth-of-type(1) {
+    margin-bottom: -30px;
+  }
+  #carLoanInfo .results .totals b:nth-of-type(3) {
+    margin-bottom: -15px;
+  }
+  #carLoanInfo .results .splitcollapsible {
+    margin: 14px 0 0 0;
+    padding: 0;
+    background: none;
+  }
+  #carLoanInfo .results .splitcollapsible h4 {
+    display: none;
+    position: relative;
+    /*margin: 0 auto; max-width: 176px;*/
+    margin-top: 5px;
+    padding: 5px 30px 8px 25px;
+    font-size: 13px;
+    text-align: center;
+    background: #D81E05;
+    z-index: 1;
+    color: #fff;
+    height: 27px;
+  }
+  #carLoanInfo .results .collapsible {
+    margin-top: -14px;
+    padding: 25px;
+    padding-bottom: 4px;
+    color: #6a6a6b;
+    border: 1px solid #D81E05;
+  }
+  #contactForm div > span,
+  #carLoanInfo .results #contactForm .checkbox {
+    font-size: 0.7em;
+  }
+  #contactForm fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  #contactForm label {
+    display: block;
+    margin: 5px 0;
+    padding: 0;
+    text-align: left;
+    width: auto;
+    float: none;
+  }
+  #contactForm input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  #contactForm select {
+    display: block;
+    width: 100%;
+    height: 32px;
+    margin: 0;
+    padding: 0 12px;
+    color: #535253;
+    line-height: 32px;
+    background: #BCBCBC;
+    border-radius: 4px;
+    border: none;
+    box-sizing: border-box;
+  }
+  #carLoanInfo .results #contactForm label {
+    display: block;
+    margin: 5px -25px 5px 0;
+    padding: 0 25px 0 0;
+    text-align: left;
+    width: auto;
+    float: none;
+  }
+  #carLoanInfo .results #contactForm label.checkbox a {
+    display: inline-block;
+    color: #6a6a6b;
+  }
+  #contactForm .validation {
+    bottom: 4px;
+    right: 2px;
+    background-image: url('//scotiabankfiles.azureedge.net/scotia-bank-mexico/images/CarLoanCalculator/validationSprite.png');
+  }
+  #contactForm .checkbox .validation {
+    bottom: 0;
+  }
+  #contactForm label + div {
+    margin: 10px 0 -20px 0;
+    text-align: center;
+  }
+  /*#contactForm a { float: none; margin: 0 auto;  }*/
+  #contactForm .button.SubmitLink {
+    width: 110%;
+    margin-left: -5%;
+  }
+  #contactForm div > span a {
+    display: inline;
+    color: #6a6a6b;
+  }
+  #contactForm input[type="checkbox"] {
+    vertical-align: middle;
+    /*-webkit-box-shadow: 0px 0px 0px 1px #D81E05; -moz-box-shadow: 0px 0px 0px 1px #D81E05; box-shadow: 0px 0px 0px 1px #D81E05;*/
+  }
+  #contactForm a:not(.button) {
+    text-decoration: underline;
+  }
+  #contactForm .thankYouMessage {
+    margin-bottom: 15px;
+  }
+  #contactForm .thankYouMessage p {
+    margin: 0;
+  }
+  .carLoanCalculatorModule .contactHeaderMobile {
+    background-color: #D82007;
+    color: #fff;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    margin-left: -20px;
+    padding: 5px 20px 5px 20px;
+  }
+  .carLoanCalculatorModule .contactHeaderMobile span {
+    display: block;
+    padding: 0 30px;
+  }
+  .carLoanCalculatorModule .background {
+    width: 100%;
+    margin-left: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .fixedCTA .background {
+    padding-top: 57px;
+    /* height of the cta */
+  }
+  .carLoanCalculatorModule .contactHeaderMobile {
+    position: static;
+  }
+  /* user-select:none is to disable triggering chrome's "touch to search" */
+  .fixedCTA .contactHeaderMobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    z-index: 999;
+    width: auto;
+    -webkit-user-select: none;
+  }
+  /* validation */
+  #carLoanInfo .results #contactForm .validation {
+    /*top: 30%; right: 2px;*/
+    vertical-align: middle;
+    background-image: url('//scotiabankfiles.azureedge.net/scotia-bank-mexico/images/CarLoanCalculator/validationSprite.png');
+  }
+  /*#carLoanInfo .results #contactForm .checkbox .validation { bottom: 0; }
+          #carLoanInfo #contactForm .field-validation-valid { font-size: 0; }
+      #carLoanInfo #contactForm .field-validation-error span:first-of-type { font-size: 0; }
+      #carLoanInfo #contactForm label span.validation:last-of-type { position: static; background: none; background-image: none; color: #D81E05; margin: 5px 0 0 5px; width: 100%; }
+      #carLoanInfo #contactForm span.validation.field-validation-valid { top: 48%; }
+      #carLoanInfo #contactForm span.validation.field-validation-valid + span.validation.field-validation-valid { display: none; }
+      #carLoanInfo #contactForm div > label:last-of-type span:first-of-type { top: 0; }*/
+  #contactForm label .validation {
+    position: static;
+    font-size: 12px;
+    /*background: none; background-image: none;*/
+    padding-left: 25px;
+    padding-top: 1px;
+    color: #D81E05;
+    margin: 5px 0 0 5px;
+    width: 100%;
+  }
+  #contactForm label .validation.field-validation-valid {
+    font-size: 0;
+  }
+  .tip {
+    display: inline-block;
+    z-index: 110;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #D81E05;
+    text-align: center;
+  }
+  .tip span {
+    width: 130px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0.6em;
+    position: absolute;
+    background-color: #D81E05;
+    color: white;
+    font-size: 0.8em;
+    font-weight: normal;
+    display: none;
+    left: 23px;
+    top: -8px;
+    border-radius: 6px;
+    border: 1px solid #D81E05;
+  }
+  .tip span:before {
+    content: "";
+    position: absolute;
+    top: 11px;
+    left: -12px;
+    color: #D81E05;
+    font-size: 28px;
+    line-height: 12px;
+    vertical-align: middle;
+    text-shadow: -1px 0 0 #D81E05;
+    overflow: hidden;
+    z-index: 99;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 18px solid #D81E05;
+  }
+  .tip.insuranceTip span:before {
+    content: "";
+    position: absolute;
+    top: -21px;
+    left: 4px;
+    color: #D81E05;
+    font-size: 28px;
+    line-height: 20px;
+    vertical-align: middle;
+    text-shadow: -1px 0 0 #D81E05;
+    overflow: hidden;
+    z-index: 99;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 18px solid #D81E05;
+  }
+  .tip.downpayment span {
+    left: 23px;
+  }
+  .tip.downpayment span:before {
+    top: 5px;
+  }
+  .tip span.show {
+    /*display: block;*/
+  }
+  .socialbranches {
+    display: block;
+    margin: 20px -15px 0 -15px;
+    padding: 0;
+    list-style: none;
+  }
+  .socialbranches li {
+    position: relative;
+    display: inline-block;
+    max-width: 34%;
+    min-width: 1%;
+    padding: 0 2% 64px 2%;
+  }
+  .socialbranches span {
+    display: block;
+  }
+  .socialbranches a {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .CLfooter {
+    color: #484949;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .CLfooter .catDisplay {
+    color: #535253;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  #txtcat {
+    display: block;
+  }
+  .CLfooter hr {
+    margin: 25px 0;
+  }
+  .CLfooter hr + div {
+    text-align: left;
+  }
+  .CLfooter .links {
+    display: block;
+    border-top: 1px solid #fff;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+  .CLfooter .links a:last-of-type {
+    float: right;
+  }
+  .CLfooter .links span {
+    display: none;
+  }
+  #content .CLfooter .links a {
+    color: #484949;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+  .carLoanCalculatorModule .CLfooter .splitcollapsible {
+    border: none;
+  }
+  .CLfooter .splitcollapsible h4 {
+    color: #484949;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: normal;
+  }
+  .CLfooter .splitcollapsible h4:hover {
+    text-decoration: underline;
+  }
+  .CLfooter .splitcollapsible.show h4 {
+    text-decoration: underline;
+  }
+  .CLfooter .splitcollapsible h4 span:after {
+    content: "+";
+  }
+  .CLfooter .splitcollapsible.show h4 span:after {
+    content: "-";
+  }
+  #mainContent-full .CLfooter .collapsible ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .CLfooter .collapsible li {
+    padding: 0;
+  }
+  .CLfooter .collapsible li:before {
+    content: "- ";
+  }
+  .carLoanCalculatorModule .print {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .amortizationBtn {
+    text-decoration: underline;
+    behavior: url(/Scripts/PIE.htc);
+    cursor: pointer;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .mobileChange {
+    position: relative;
+    padding-top: 140px;
+    margin-bottom: 8px;
+    clear: both;
+  }
+  .mobileChange .insurance {
+    margin: 0 !important;
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  /*Stock Updater*/
+  /*Border for the stock updater*/
+  .ulListContainer {
+    position: relative;
+    width: auto;
+    padding: 10px 10px 0 10px;
+    background-color: #d5d6d6;
+  }
+  #mainContent-full .ulListContainer {
+    margin: -15px;
+  }
+  .stockUpdater {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    white-space: nowrap;
+    width: 100%;
+    font-size: 0.001em;
+    background-color: #f1f0ea;
+    padding-bottom: 10px;
+  }
+  .stockUpdater ul {
+    transition: margin-left ease-out 0.5s;
+    position: relative;
+    display: inline-table;
+    margin: 0;
+    padding: 0 16px;
+    list-style-type: none;
+    width: 100%;
+    height: 74px;
+    white-space: nowrap;
+    zoom: 1;
+    vertical-align: top;
+    border: none;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-top: 11px;
+  }
+  .stockUpdater > ul:nth-of-type(1n +2) {
+    margin-left: -0.1em;
+  }
+  .stockUpdater.disabletransition > ul {
+    transition: none;
+  }
+  .stockUpdater li {
+    border-left: 1px solid #d1d0cb;
+    display: table-cell;
+    margin: 0 1.5% 0 0;
+    padding-left: 10px;
+    box-sizing: border-box;
+    height: 74px;
+    white-space: normal;
+    vertical-align: middle;
+    font-size: 12px;
+    padding-right: 10px;
+    position: relative;
+  }
+  .stockUpdater .column4 li {
+    width: 24%;
+  }
+  .stockUpdater .column3 li {
+    width: 33%;
+  }
+  .stockUpdater li:nth-of-type(1) {
+    border-left: none;
+    font-weight: bold;
+    text-align: right;
+    padding-left: 0px;
+  }
+  .stockUpdater li:nth-of-type(1) img {
+    margin-top: -12px;
+    padding-right: 11px;
+  }
+  .stockUpdater ul:nth-of-type(3) li:nth-of-type(1) img,
+  .stockUpdater ul:nth-of-type(4) li:nth-of-type(1) img {
+    padding-right: 16px;
+  }
+  .stockUpdater header {
+    font-weight: bold;
+    padding-bottom: 3px;
+  }
+  .stockUpdater strong {
+    display: block;
+  }
+  .stockUpdater span {
+    display: block;
+    padding-left: 1em;
+  }
+  .stockUpdater .seeMoreLink {
+    margin-left: 6px;
+  }
+  .stockUpdater .seeMoreLink a {
+    transition: none;
+    position: absolute;
+    top: 62px;
+    white-space: nowrap;
+    right: 10px;
+    font-size: 10.5px;
+    text-decoration: none;
+    color: #66666F !important;
+    font-weight: bold;
+  }
+  .stockUpdater .seeMoreLink a:after {
+    content: "\00a0  >>";
+    color: #EE2536;
+    margin-left: 0;
+  }
+  .stockUpdater .positive {
+    color: #00aa00;
+  }
+  .stockUpdater .negative {
+    color: #d81e05;
+  }
+  .next {
+    position: absolute;
+    top: 48px;
+    right: 14px;
+    display: none;
+  }
+  .prev {
+    position: absolute;
+    top: 48px;
+    left: 14px;
+    display: none;
+  }
+  a.next.show,
+  a.prev.show {
+    z-index: 100;
+  }
+  .rotator > ul li {
+    transition: margin-left ease-out 0.5s;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    white-space: nowrap;
+    zoom: 1;
+  }
+  /*Pyme Secure Contact Form*/
+  #pymeSecureContactModule {
+    background: #EEE;
+    position: relative;
+  }
+  #pymeSecureContactModule .mainContent {
+    background: inherit;
+    padding-top: 75px;
+  }
+  #pymeSecureContactModule .mainContent > * {
+    margin: 3px 15px 16px 15px;
+  }
+  #pymeSecureContactModule .mainContent h2 {
+    font-size: 15.5px;
+    font-family: Frutiger, Arial, Helvetica, sans-serif;
+  }
+  #pymeSecureContactModule .mainContent p {
+    font-size: 12.9px;
+    font-family: Frutiger, Arial, Helvetica, sans-serif;
+  }
+  #pymeSecureContactModule .mainContent img {
+    display: none;
+  }
+  #pymeSecureContactModule .pymeContactForm {
+    background: #EEE;
+    padding-bottom: 10px;
+  }
+  #pymeSecureContactModule .pymeContactForm:after {
+    content: "";
+    width: 100%;
+    height: 14px;
+    background: url(//cdn.agilitycms.com/scotia-bank-mexico/images/pyme-contact-form/shadow.png) no-repeat 0 0;
+    background-size: 100%;
+    bottom: -4px;
+    right: 0;
+    position: absolute;
+    display: inline-block;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  #pymeSecureContactModule .pymeContactForm .ErrorSummary ul {
+    margin-left: 20px;
+    padding-left: 0;
+  }
+  #pymeSecureContactModule .pymeContactForm .ErrorSummary ul li {
+    list-style-type: none;
+  }
+  #pymeSecureContactModule .pymeContactForm header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px 15px;
+    font-size: 18px;
+    text-align: center;
+    background: #606060;
+    z-index: 1;
+    behavior: url(/Scripts/PIE.htc);
+    color: #fff;
+    margin-left: -15px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #pymeSecureContactModule .pymeContactForm header span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 75%;
+    font-family: Frutiger, Arial, Helvetica, sans-serif;
+  }
+  #pymeSecureContactModule .pymeContactForm .formFields {
+    padding: 15px 20px 30px 20px;
+    text-align: right;
+    background: #FFF;
+    margin: 0 15px;
+  }
+  #pymeSecureContactModule .pymeContactForm .formFields label {
+    display: block;
+    margin: 5px -25px 5px 0;
+    padding: 0 25px 3px 0;
+    text-align: left;
+    width: auto;
+    float: none;
+    font-size: 1em;
+    position: relative;
+  }
+  #pymeSecureContactModule .pymeContactForm .formFields label input[type="text"],
+  #pymeSecureContactModule .pymeContactForm .formFields label input[type="email"],
+  #pymeSecureContactModule .pymeContactForm .formFields label input[type="tel"],
+  #pymeSecureContactModule .pymeContactForm .formFields label select {
+    position: relative;
+    display: block;
+    width: 95%;
+    height: 32px;
+    margin: 5px 0 0 0;
+    padding: 0 12px;
+    color: #535253;
+    line-height: 32px;
+    background: #BCBCBC;
+    border-radius: 4px;
+    border: none;
+    box-sizing: border-box;
+  }
+  #pymeSecureContactModule .pymeContactForm .formFields label.checkbox {
+    font-size: 10px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  #pymeSecureContactModule .pymeContactForm .button.SubmitLink {
+    margin-right: 15px;
+  }
+  #pymeSecureContactModule .pymeContactForm .button.SubmitLink span {
+    color: #fff;
+    padding: 6px 13px 7px 13px;
+    border-top: 1px solid #d81e05;
+    display: block;
+    background-color: #d81e05;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+  }
+  #pymeSecureContactModule .pymeContactForm .g-recaptcha {
+    width: 300px;
+    margin: 10% -36px 10% 0;
+  }
+  #pymeSecureContactModule .pymeContactForm .g-recaptcha + * {
+    clear: both;
+  }
+  #pymeSecureContactModule .pymeContactForm .field-validation-valid {
+    top: 57%;
+    right: 4%;
+  }
+  #pymeSecureContactModule .pymeContactForm .formFields label.checkbox .field-validation-valid {
+    top: 25%;
+  }
+  #pymeSecureContactModule .pymeContactForm .field-validation-error,
+  #pymeSecureContactModule .pymeContactForm .field-validation-error + .validation {
+    top: 56%;
+    right: 4%;
+  }
+  #pymeSecureContactModule .pymeContactForm .formFields label.checkbox .field-validation-error,
+  #pymeSecureContactModule .pymeContactForm .formFields label.checkbox .field-validation-error + .validation {
+    margin-top: -7px;
+  }
+  /*  Popup Module */
+  #popupContent {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    z-index: 9999;
+  }
+  #popupClose {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 360px) and (orientation: portrait) {
+    #pymeSecureContactModule .pymeContactForm .g-recaptcha {
+      width: 300px;
+      margin: 10% -40px;
+    }
+  }

